@@ -1,0 +1,2264 @@
+success,timeout,failed_images,failed_audio,failed_video,trial_type,trial_index,time_elapsed,internal_node_id,subject_id,rt,stimulus,response,part,slider_start,ID,set_ID,prob,amount,last_location,actual_choice,actual_EV,binary_id,trinary_id,catch,A_key,D_key,choice_prob,choice_amount,potential_prize_prob,potential_prize_amount,won_prize,remaining_budget,total_prize
+TRUE,FALSE,[],[],[],preload,0,4,0.0-0.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,1,8707,0.0-1.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+          <h1>שלום וברוכים הבאים!</h1>
+          <p>לפניכם ניסוי בקבלת החלטות עם שני חלקים.
+          <br><br>לחצו על העכבר כדי להמשיך.</p>",0,example,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,2,19394,0.0-2.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+        <h1>חלק 1</h1>
+        <p>בקרוב יוצגו בפניכם הגרלות.
+        <br>עליכם לבחור את המחיר המירבי שתהיו מוכנים לשלם כדי להשתתף בהגרלה שתוצג.
+        <br>יש לכם תקציב של ₪80 לכל הגרלה. 
+        <br>נסו להעריך כל הגרלה בנפרד ולחשוב כמה היא שווה עבורכם, ₪80 זמינים לכל הגרלה בנפרד.
+        <br><br>לחצו על העכבר כדי להמשיך.</p>",1,instructions,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,3,30786,0.0-3.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+        <p>בסוף הניסוי, המחשב יבחר את אחת ההגרלות ויקבע מחיר לכרטיס עבורה. 
+        <br>במידה והמחיר שבחרתם נמוך מהמחיר שנבחר על ידי המחשב, לא תשתתפו בהגרלה ותשארו עם מלוא התקציב.
+        <br>במידה והמחיר שבחרתם גבוה מהמחיר שנבחר על ידי המחשב, תשלמו את המחיר שנקבע ותשתתפו בהגרלה.
+        <br><br>לחצו על העכבר כדי להמשיך.</p>",1,instructions,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,4,47474,0.0-4.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,16578,"
+        <p style=""font-size: 42px;"">נתחיל עם דוגמא: 
+        <br>ההגרלה מטה מציעה 65% סיכוי לזכות ב-₪40 
+        <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;35% סיכוי לזכות ב-₪0.
+        <br><br>מה המחיר המירבי שתהיו מוכנים לשלם על כרטיס להגרלה זו בין 0 ל-₪80?
+        <br>הזיזו את העכבר על פני המלבן ולחצו כדי לבצע בחירה.</p>
+        
+        <p style=""text-align: center;"">₪40<br>65%</p>
+
+        <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",5,example,52,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,5,61386,0.0-5.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p>יפה מאוד!
+                <br> בחרתם שתהיו מוכנים לשלם ₪5 כדי להשתתף בהגרלה:
+                <br><p style=""text-align: center;"">₪40<br>65%</p>
+                <p>נשמע נכון?
+                <br>נניח שהגרלה זו נבחרה בסוף הניסוי.
+                <br>כעת המחשב יקבע מחיר עבורה באקראי.
+                <br>לחצו על העכבר להמשך.</p>",1,example,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,6,70442,0.0-6.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p>המחשב קבע מחיר: ₪24
+                <br>ואתם בחרתם לשלם לכל היותר: ₪5
+                <br><br>מכיוון שהמחיר שבחרתם נמוך מהמחיר שנקבע, לא תתשתתפו בהגרלה.
+                <br>במקרה כזה, בסוף הניסוי תקבלו את כל התקציב ההתחלתי של ₪80.
+                <br><br>לחצו על העכבר להמשך.</p>",1,example,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,7,82299,0.0-7.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,11603,"<p style=""font-size: 42px;"">הנה עוד דוגמא:
+                <br>ההגרלה מטה מציעה 35% סיכוי לזכות ב-₪18 
+                <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;65% סיכוי לזכות ב-₪0.</p>
+        
+                <p style=""text-align: center;"">₪18<br>35%</p>
+                <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",2,example,37,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,8,90147,0.0-8.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p>הייתם מוכנים לשלם  ₪2 כדי להשתתף בהגרלה:
+                <p style=""text-align: center;"">₪18<br>35%</p>
+                <p>כעת נניח שהמחשב בחר את ההגרלה הזו בסוף הניסוי, וקבע עבורה מחיר.
+                <br><br>לחצו על העכבר כדי להמשיך.</p>",1,instructions,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,9,110587,0.0-9.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p>המחשב קבע מחיר להגרלה: ₪2
+                <br>ואתם בחרתם לשלם לכל היותר: ₪2
+                <br><br>כעת המחיר שנקבע זהה לזה שבחרתם, אז תשלמו את המחיר שקבע המחשב (₪2) ותשתתפו בהגרלה.
+                <br>במקרה כזה, תסיימו את הניסוי עם תקציב של ₪78 ועם סיכוי לזכות ב-₪18 נוספים מההגרלה.
+                <br>כלומר, תוכלו לקבל ₪78 אם לא תזכו בהגרלה, או ₪96 אם תזכו בהגרלה.
+                <br><br>לחצו על העכבר להמשך.</p>",1,example,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,10,119923,0.0-10.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p>במהלך הניסוי, קודם תראו את ההגרלה ורק לאחר מכן תוכלו לבחור.
+                <p>כמו כן, יהיו לכם מספר שניות מוגבל להגיב.
+                <p>בואו ננסה זאת עם ההגרלה הקודמת.
+                <br>לחצו על העכבר כדי להמשיך.</p>",1,instructions,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,11,121189,0.0-11.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                    <p style=""text-align: center;"">₪18<br>35%</p>
+                    <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",53,instructions,0,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,12,125455,0.0-12.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                    <p style=""text-align: center;"">₪18<br>35%</p>
+                    <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,instructions,41,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,13,125723,0.0-13.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p>לא הגבתם בזמן המוקצב לתגובה. 
+                <br>נסו להגיב מהר יותר בפעם הבאה.
+                <br><br>לחצו על העכבר כדי להמשיך.</p>",1,instructions,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,14,128323,0.0-14.0-0.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2340,"
+                    <p style=""text-align: center;"">₪40<br>65%</p>
+                    <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",3,instructions,72,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,15,134147,0.0-14.0-1.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p>יפה. הפעם בחרתם לשלם לכל היותר ₪3.
+                <br><br>לחצו על העכבר כדי להמשיך.</p>",1,instructions,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,16,146171,0.0-15.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p>כעת נתחיל את הניסוי.
+                <br><br>אתם תראו הגרלות ותתבקשו לבחור כמה תהיו מוכנים לשלם כדי להשתתף בהן.
+                <br>יש לכם תקציב של ₪80 עבור כל הגרלה.
+                <br>בסוף הניסוי הגרלה אחת תבחר באקראי ותשוחק.
+                <br><br>לחצו על העכבר כדי להתחיל את הניסוי.</p>",1,instructions,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,17,147438,0.0-16.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,18,148443,0.0-17.0-0.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪71
+                                                <br>55%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,27,"5B,18A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,19,150987,0.0-17.0-1.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2542,"
+                  <p style=""text-align: center;"">₪71
+                                                <br>55%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",8,evaluation,2,27,"5B,18A",55,71,9,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,20,151801,0.0-17.0-2.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,21,152819,0.0-17.0-0.1,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪18
+                                                <br>50%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,10,"2C,16C,22B,28A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,22,156831,0.0-17.0-1.1,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪18
+                                                <br>50%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,74,10,"2C,16C,22B,28A",50,18,3,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,23,157942,0.0-17.0-2.1,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,24,158948,0.0-17.0-0.2,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪4
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,3,"12B,20B,23B,27C,29C",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,25,160211,0.0-17.0-1.2,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1262,"
+                  <p style=""text-align: center;"">₪4
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",0,evaluation,38,3,"12B,20B,23B,27C,29C",75,4,0,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,26,160868,0.0-17.0-2.2,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,27,161881,0.0-17.0-0.3,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪16
+                                                <br>20%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,8,"14C,17A,20C,27A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,28,165894,0.0-17.0-1.3,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪16
+                                                <br>20%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,63,8,"14C,17A,20C,27A",20,16,1,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,29,167097,0.0-17.0-2.3,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,30,168110,0.0-17.0-0.4,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪58
+                                                <br>30%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,19,"13C,30A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,31,171307,0.0-17.0-1.4,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3196,"
+                  <p style=""text-align: center;"">₪58
+                                                <br>30%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",5,evaluation,36,19,"13C,30A",30,58,5,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,32,172020,0.0-17.0-2.4,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,33,173036,0.0-17.0-0.5,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪71
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,26,"2B,16A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,34,175947,0.0-17.0-1.5,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2909,"
+                  <p style=""text-align: center;"">₪71
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",5,evaluation,44,26,"2B,16A",45,71,6,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,35,176954,0.0-17.0-2.5,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,36,177967,0.0-17.0-0.6,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪43
+                                                <br>60%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,17,"2A,7A,9A,15B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,37,180627,0.0-17.0-1.6,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2659,"
+                  <p style=""text-align: center;"">₪43
+                                                <br>60%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",3,evaluation,56,17,"2A,7A,9A,15B",60,43,4,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,38,181980,0.0-17.0-2.6,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,39,182993,0.0-17.0-0.7,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪58
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,21,"11C,18C,25A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,40,186211,0.0-17.0-1.7,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3216,"
+                  <p style=""text-align: center;"">₪58
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",2,evaluation,5,21,"11C,18C,25A",45,58,3,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,41,186759,0.0-17.0-2.7,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,42,187766,0.0-17.0-0.8,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪64
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,24,"6A,21A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,43,191243,0.0-17.0-1.8,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3476,"
+                  <p style=""text-align: center;"">₪64
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",2,evaluation,47,24,"6A,21A",25,64,3,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,44,192356,0.0-17.0-2.8,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,45,193368,0.0-17.0-0.9,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪64
+                                                <br>50%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,25,"1B,3B,4A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,46,197375,0.0-17.0-1.9,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪64
+                                                <br>50%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,20,25,"1B,3B,4A",50,64,7,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,47,197922,0.0-17.0-2.9,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,48,198937,0.0-17.0-0.10,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪61
+                                                <br>55%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,23,"7B,26B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,49,201803,0.0-17.0-1.10,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2864,"
+                  <p style=""text-align: center;"">₪61
+                                                <br>55%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",6,evaluation,67,23,"7B,26B",55,61,7,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,50,202430,0.0-17.0-2.10,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,51,203440,0.0-17.0-0.11,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪39
+                                                <br>65%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,16,"1A,15A,26C",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,52,206139,0.0-17.0-1.11,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2697,"
+                  <p style=""text-align: center;"">₪39
+                                                <br>65%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",6,evaluation,75,16,"1A,15A,26C",65,39,7,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,53,206682,0.0-17.0-2.11,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,54,207686,0.0-17.0-0.12,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪58
+                                                <br>40%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,20,"10C,13A,19C,21B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,55,211003,0.0-17.0-1.12,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3316,"
+                  <p style=""text-align: center;"">₪58
+                                                <br>40%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",4,evaluation,18,20,"10C,13A,19C,21B",40,58,5,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,56,211778,0.0-17.0-2.12,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,57,212790,0.0-17.0-0.13,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪71
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,28,8B,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,58,215995,0.0-17.0-1.13,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3203,"
+                  <p style=""text-align: center;"">₪71
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",7,evaluation,38,28,8B,75,71,7,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,59,216975,0.0-17.0-2.13,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,60,217990,0.0-17.0-0.14,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪79
+                                                <br>40%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,30,9B,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,61,220899,0.0-17.0-1.14,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2907,"
+                  <p style=""text-align: center;"">₪79
+                                                <br>40%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",3,evaluation,3,30,9B,40,79,4,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,62,221534,0.0-17.0-2.14,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,63,222552,0.0-17.0-0.15,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪39
+                                                <br>60%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,15,"9C,25B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,64,225427,0.0-17.0-1.15,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2874,"
+                  <p style=""text-align: center;"">₪39
+                                                <br>60%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",4,evaluation,13,15,"9C,25B",60,39,5,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,65,226445,0.0-17.0-2.15,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,66,227461,0.0-17.0-0.16,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>30%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,11,"3C,20A,22A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,67,231211,0.0-17.0-1.16,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3749,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>30%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",4,evaluation,33,11,"3C,20A,22A",30,36,5,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,68,232319,0.0-17.0-2.16,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,69,233334,0.0-17.0-0.17,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪61
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,22,"10A,11A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,70,236699,0.0-17.0-1.17,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3363,"
+                  <p style=""text-align: center;"">₪61
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",4,evaluation,29,22,"10A,11A",45,61,4,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,71,237707,0.0-17.0-2.17,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,72,238721,0.0-17.0-0.18,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,7,"6B,18B,22C,24C,29A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,73,240939,0.0-17.0-1.18,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2217,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",3,evaluation,29,7,"6B,18B,22C,24C,29A",75,11,3,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,74,242405,0.0-17.0-2.18,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,75,243419,0.0-17.0-0.19,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪79
+                                                <br>65%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,31,8A,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,76,247430,0.0-17.0-1.19,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪79
+                                                <br>65%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,28,31,8A,65,79,7,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,77,248669,0.0-17.0-2.19,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,78,249672,0.0-17.0-0.20,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪4
+                                                <br>50%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,2,"4C,17B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,79,251843,0.0-17.0-1.20,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2170,"
+                  <p style=""text-align: center;"">₪4
+                                                <br>50%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",2,evaluation,71,2,"4C,17B",50,4,3,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,80,252971,0.0-17.0-2.20,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,81,253984,0.0-17.0-0.21,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>20%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,4,"12C,17C,23C,28C",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,82,256667,0.0-17.0-1.21,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2683,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>20%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",1,evaluation,80,4,"12C,17C,23C,28C",20,11,2,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,83,257768,0.0-17.0-2.21,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,84,258781,0.0-17.0-0.22,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,14,"4B,5A,13B,16B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,85,261595,0.0-17.0-1.22,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2813,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",8,evaluation,56,14,"4B,5A,13B,16B",75,36,9,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,86,262589,0.0-17.0-2.22,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,87,263595,0.0-17.0-0.23,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,6,"14B,21C,25C",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,88,266475,0.0-17.0-1.23,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2879,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",3,evaluation,11,6,"14B,21C,25C",45,11,4,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,89,267698,0.0-17.0-2.23,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,90,268712,0.0-17.0-0.24,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,5,"12A,27B,28B,30B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,91,270939,0.0-17.0-1.24,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2226,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",1,evaluation,39,5,"12A,27B,28B,30B",25,11,1,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,92,271589,0.0-17.0-2.24,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,93,272596,0.0-17.0-0.25,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪43
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,18,"11B,19B,24A,26A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,94,276283,0.0-17.0-1.25,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3686,"
+                  <p style=""text-align: center;"">₪43
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",5,evaluation,23,18,"11B,19B,24A,26A",75,43,6,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,95,277110,0.0-17.0-2.25,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,96,278120,0.0-17.0-0.26,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪4
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,1,"6C,29B,30C",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,97,280907,0.0-17.0-1.26,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2786,"
+                  <p style=""text-align: center;"">₪4
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",1,evaluation,78,1,"6C,29B,30C",25,4,2,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,98,281777,0.0-17.0-2.26,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,99,282782,0.0-17.0-0.27,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>70%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,13,"3A,5C,10B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,100,286667,0.0-17.0-1.27,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3883,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>70%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",9,evaluation,62,13,"3A,5C,10B",70,36,10,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,101,288159,0.0-17.0-2.27,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,102,289162,0.0-17.0-0.28,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪18
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,9,"14A,23A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,103,293171,0.0-17.0-1.28,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪18
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,14,9,"14A,23A",25,18,1,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,104,293906,0.0-17.0-2.28,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,105,294917,0.0-17.0-0.29,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪76
+                                                <br>65%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,29,"8C,19A,24B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,106,297555,0.0-17.0-1.29,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2636,"
+                  <p style=""text-align: center;"">₪76
+                                                <br>65%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",10,evaluation,66,29,"8C,19A,24B",65,76,10,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,107,298463,0.0-17.0-2.29,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,108,299471,0.0-17.0-0.30,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>60%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,12,"1C,7C,15C",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,109,302603,0.0-17.0-1.30,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3131,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>60%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",6,evaluation,40,12,"1C,7C,15C",60,36,6,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,110,303314,0.0-17.0-2.30,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,111,304329,0.0-18.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,112,317691,0.0-19.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p>הפסקה.
+          <br>לחצו כדי להמשיך.</p>",1,scan_wait,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,113,318702,0.0-20.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,114,319712,0.0-21.0-0.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪71
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,28,8B,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,115,322035,0.0-21.0-1.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2321,"
+                  <p style=""text-align: center;"">₪71
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",9,evaluation,50,28,8B,75,71,10,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,116,322829,0.0-21.0-2.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,117,323835,0.0-21.0-0.1,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪58
+                                                <br>30%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,19,"13C,30A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,118,327347,0.0-21.0-1.1,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3510,"
+                  <p style=""text-align: center;"">₪58
+                                                <br>30%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",3,evaluation,19,19,"13C,30A",30,58,4,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,119,328446,0.0-21.0-2.1,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,120,329452,0.0-21.0-0.2,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪18
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,9,"14A,23A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,121,331715,0.0-21.0-1.2,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2261,"
+                  <p style=""text-align: center;"">₪18
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",1,evaluation,11,9,"14A,23A",25,18,2,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,122,332594,0.0-21.0-2.2,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,123,333601,0.0-21.0-0.3,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,14,"4B,5A,13B,16B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,124,336955,0.0-21.0-1.3,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3352,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",9,evaluation,4,14,"4B,5A,13B,16B",75,36,9,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,125,338179,0.0-21.0-2.3,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,126,339192,0.0-21.0-0.4,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪61
+                                                <br>55%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,23,"7B,26B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,127,342899,0.0-21.0-1.4,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3705,"
+                  <p style=""text-align: center;"">₪61
+                                                <br>55%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",7,evaluation,66,23,"7B,26B",55,61,8,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,128,344026,0.0-21.0-2.4,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,129,345032,0.0-21.0-0.5,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪4
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,3,"12B,20B,23B,27C,29C",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,130,347683,0.0-21.0-1.5,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2650,"
+                  <p style=""text-align: center;"">₪4
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",0,evaluation,79,3,"12B,20B,23B,27C,29C",75,4,0,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,131,348937,0.0-21.0-2.5,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,132,349948,0.0-21.0-0.6,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪18
+                                                <br>50%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,10,"2C,16C,22B,28A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,133,353147,0.0-21.0-1.6,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3197,"
+                  <p style=""text-align: center;"">₪18
+                                                <br>50%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",1,evaluation,16,10,"2C,16C,22B,28A",50,18,2,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,134,354140,0.0-21.0-2.6,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,135,355151,0.0-21.0-0.7,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>70%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,13,"3A,5C,10B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,136,358355,0.0-21.0-1.7,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3203,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>70%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",7,evaluation,26,13,"3A,5C,10B",70,36,7,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,137,359476,0.0-21.0-2.7,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,138,360492,0.0-21.0-0.8,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪61
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,22,"10A,11A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,139,364497,0.0-21.0-1.8,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪61
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,56,22,"10A,11A",45,61,9,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,140,365582,0.0-21.0-2.8,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,141,366586,0.0-21.0-0.9,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪79
+                                                <br>40%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,30,9B,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,142,370283,0.0-21.0-1.9,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3697,"
+                  <p style=""text-align: center;"">₪79
+                                                <br>40%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",9,evaluation,4,30,9B,40,79,10,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,143,371231,0.0-21.0-2.9,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,144,372232,0.0-21.0-0.10,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪39
+                                                <br>65%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,16,"1A,15A,26C",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,145,375251,0.0-21.0-1.10,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3017,"
+                  <p style=""text-align: center;"">₪39
+                                                <br>65%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",4,evaluation,38,16,"1A,15A,26C",65,39,4,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,146,376470,0.0-21.0-2.10,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,147,377485,0.0-21.0-0.11,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪58
+                                                <br>40%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,20,"10C,13A,19C,21B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,148,381487,0.0-21.0-1.11,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪58
+                                                <br>40%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,48,20,"10C,13A,19C,21B",40,58,6,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,149,382033,0.0-21.0-2.11,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,150,383043,0.0-21.0-0.12,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪16
+                                                <br>20%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,8,"14C,17A,20C,27A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,151,385515,0.0-21.0-1.12,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2471,"
+                  <p style=""text-align: center;"">₪16
+                                                <br>20%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",1,evaluation,57,8,"14C,17A,20C,27A",20,16,2,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,152,386063,0.0-21.0-2.12,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,153,387079,0.0-21.0-0.13,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪64
+                                                <br>50%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,25,"1B,3B,4A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,154,391088,0.0-21.0-1.13,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪64
+                                                <br>50%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,45,25,"1B,3B,4A",50,64,9,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,155,392551,0.0-21.0-2.13,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,156,393562,0.0-21.0-0.14,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪4
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,1,"6C,29B,30C",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,157,395107,0.0-21.0-1.14,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1544,"
+                  <p style=""text-align: center;"">₪4
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",0,evaluation,25,1,"6C,29B,30C",25,4,0,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,158,395678,0.0-21.0-2.14,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,159,396691,0.0-21.0-0.15,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,7,"6B,18B,22C,24C,29A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,160,399075,0.0-21.0-1.15,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2383,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",0,evaluation,60,7,"6B,18B,22C,24C,29A",75,11,1,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,161,399754,0.0-21.0-2.15,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,162,400767,0.0-21.0-0.16,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪79
+                                                <br>65%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,31,8A,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,163,404355,0.0-21.0-1.16,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3587,"
+                  <p style=""text-align: center;"">₪79
+                                                <br>65%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",3,evaluation,39,31,8A,65,79,4,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,164,405253,0.0-21.0-2.16,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,165,406267,0.0-21.0-0.17,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪4
+                                                <br>50%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,2,"4C,17B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,166,407243,0.0-21.0-1.17,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,975,"
+                  <p style=""text-align: center;"">₪4
+                                                <br>50%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",0,evaluation,9,2,"4C,17B",50,4,0,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,167,408006,0.0-21.0-2.17,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,168,409009,0.0-21.0-0.18,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>20%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,4,"12C,17C,23C,28C",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,169,412947,0.0-21.0-1.18,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3937,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>20%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",2,evaluation,60,4,"12C,17C,23C,28C",20,11,3,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,170,413702,0.0-21.0-2.18,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,171,414710,0.0-21.0-0.19,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪39
+                                                <br>60%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,15,"9C,25B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,172,418339,0.0-21.0-1.19,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3627,"
+                  <p style=""text-align: center;"">₪39
+                                                <br>60%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",5,evaluation,25,15,"9C,25B",60,39,6,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,173,418983,0.0-21.0-2.19,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,174,419999,0.0-21.0-0.20,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪64
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,24,"6A,21A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,175,423771,0.0-21.0-1.20,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3771,"
+                  <p style=""text-align: center;"">₪64
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",2,evaluation,13,24,"6A,21A",25,64,3,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,176,424736,0.0-21.0-2.20,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,177,425747,0.0-21.0-0.21,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪58
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,21,"11C,18C,25A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,178,429339,0.0-21.0-1.21,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3590,"
+                  <p style=""text-align: center;"">₪58
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",3,evaluation,37,21,"11C,18C,25A",45,58,4,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,179,430072,0.0-21.0-2.21,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,180,431088,0.0-21.0-0.22,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,5,"12A,27B,28B,30B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,181,433851,0.0-21.0-1.22,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2762,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",2,evaluation,57,5,"12A,27B,28B,30B",25,11,3,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,182,435052,0.0-21.0-2.22,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,183,436058,0.0-21.0-0.23,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,6,"14B,21C,25C",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,184,439979,0.0-21.0-1.23,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3919,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",4,evaluation,78,6,"14B,21C,25C",45,11,5,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,185,440577,0.0-21.0-2.23,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,186,441579,0.0-21.0-0.24,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪76
+                                                <br>65%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,29,"8C,19A,24B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,187,445035,0.0-21.0-1.24,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3454,"
+                  <p style=""text-align: center;"">₪76
+                                                <br>65%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",12,evaluation,68,29,"8C,19A,24B",65,76,13,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,188,446122,0.0-21.0-2.24,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,189,447126,0.0-21.0-0.25,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪43
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,18,"11B,19B,24A,26A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,190,451129,0.0-21.0-1.25,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪43
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,67,18,"11B,19B,24A,26A",75,43,13,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,191,451860,0.0-21.0-2.25,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,192,452863,0.0-21.0-0.26,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>30%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,11,"3C,20A,22A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,193,456339,0.0-21.0-1.26,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3475,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>30%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",5,evaluation,61,11,"3C,20A,22A",30,36,5,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,194,457285,0.0-21.0-2.26,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,195,458286,0.0-21.0-0.27,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪43
+                                                <br>60%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,17,"2A,7A,9A,15B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,196,462299,0.0-21.0-1.27,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪43
+                                                <br>60%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,26,17,"2A,7A,9A,15B",60,43,10,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,197,463629,0.0-21.0-2.27,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,198,464645,0.0-21.0-0.28,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪71
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,26,"2B,16A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,199,468516,0.0-21.0-1.28,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3869,"
+                  <p style=""text-align: center;"">₪71
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",4,evaluation,40,26,"2B,16A",45,71,5,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,200,469332,0.0-21.0-2.28,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,201,470336,0.0-21.0-0.29,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪71
+                                                <br>55%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,27,"5B,18A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,202,474341,0.0-21.0-1.29,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪71
+                                                <br>55%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,58,27,"5B,18A",55,71,9,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,203,475625,0.0-21.0-2.29,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,204,476640,0.0-21.0-0.30,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>60%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,12,"1C,7C,15C",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,205,480644,0.0-21.0-1.30,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>60%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,8,12,"1C,7C,15C",60,36,9,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,206,481893,0.0-21.0-2.30,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,207,482905,0.0-22.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,208,490507,0.0-23.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p>הפסקה.
+          <br>לחצו כדי להמשיך.</p>",1,scan_wait,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,209,491518,0.0-24.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,210,492535,0.0-25.0-0.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>20%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,4,"12C,17C,23C,28C",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,211,495612,0.0-25.0-1.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3075,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>20%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",1,evaluation,18,4,"12C,17C,23C,28C",20,11,2,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,212,496766,0.0-25.0-2.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,213,497768,0.0-25.0-0.1,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>60%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,12,"1C,7C,15C",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,214,501770,0.0-25.0-1.1,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>60%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,15,12,"1C,7C,15C",60,36,9,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,215,502379,0.0-25.0-2.1,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,216,503384,0.0-25.0-0.2,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,7,"6B,18B,22C,24C,29A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,217,506924,0.0-25.0-1.2,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3538,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",2,evaluation,35,7,"6B,18B,22C,24C,29A",75,11,3,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,218,508120,0.0-25.0-2.2,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,219,509128,0.0-25.0-0.3,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪71
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,26,"2B,16A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,220,513130,0.0-25.0-1.3,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪71
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,72,26,"2B,16A",45,71,7,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,221,514537,0.0-25.0-2.3,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,222,515539,0.0-25.0-0.4,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪58
+                                                <br>40%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,20,"10C,13A,19C,21B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,223,519156,0.0-25.0-1.4,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3615,"
+                  <p style=""text-align: center;"">₪58
+                                                <br>40%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",7,evaluation,33,20,"10C,13A,19C,21B",40,58,8,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,224,519845,0.0-25.0-2.4,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,225,520861,0.0-25.0-0.5,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪43
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,18,"11B,19B,24A,26A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,226,523899,0.0-25.0-1.5,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3038,"
+                  <p style=""text-align: center;"">₪43
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",12,evaluation,13,18,"11B,19B,24A,26A",75,43,13,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,227,525254,0.0-25.0-2.5,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,228,526264,0.0-25.0-0.6,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪64
+                                                <br>50%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,25,"1B,3B,4A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,229,530270,0.0-25.0-1.6,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪64
+                                                <br>50%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,53,25,"1B,3B,4A",50,64,16,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,230,531047,0.0-25.0-2.6,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,231,532049,0.0-25.0-0.7,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪4
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,1,"6C,29B,30C",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,232,535468,0.0-25.0-1.7,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3417,"
+                  <p style=""text-align: center;"">₪4
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",0,evaluation,45,1,"6C,29B,30C",25,4,1,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,233,536836,0.0-25.0-2.7,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,234,537852,0.0-25.0-0.8,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪76
+                                                <br>65%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,29,"8C,19A,24B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,235,541140,0.0-25.0-1.8,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3286,"
+                  <p style=""text-align: center;"">₪76
+                                                <br>65%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",10,evaluation,70,29,"8C,19A,24B",65,76,11,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,236,542218,0.0-25.0-2.8,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,237,543227,0.0-25.0-0.9,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪16
+                                                <br>20%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,8,"14C,17A,20C,27A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,238,547124,0.0-25.0-1.9,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3895,"
+                  <p style=""text-align: center;"">₪16
+                                                <br>20%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",0,evaluation,54,8,"14C,17A,20C,27A",20,16,1,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,239,548568,0.0-25.0-2.9,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,240,549573,0.0-25.0-0.10,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,6,"14B,21C,25C",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,241,553575,0.0-25.0-1.10,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,17,6,"14B,21C,25C",45,11,3,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,242,554740,0.0-25.0-2.10,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,243,555749,0.0-25.0-0.11,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪79
+                                                <br>40%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,30,9B,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,244,559760,0.0-25.0-1.11,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪79
+                                                <br>40%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,65,30,9B,40,79,8,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,245,560277,0.0-25.0-2.11,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,246,561279,0.0-25.0-0.12,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪18
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,9,"14A,23A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,247,565294,0.0-25.0-1.12,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪18
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,27,9,"14A,23A",25,18,3,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,248,566314,0.0-25.0-2.12,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,249,567325,0.0-25.0-0.13,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>30%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,11,"3C,20A,22A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,250,570243,0.0-25.0-1.13,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2918,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>30%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",4,evaluation,28,11,"3C,20A,22A",30,36,5,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,251,571095,0.0-25.0-2.13,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,252,572098,0.0-25.0-0.14,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪18
+                                                <br>50%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,10,"2C,16C,22B,28A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,253,575475,0.0-25.0-1.14,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3376,"
+                  <p style=""text-align: center;"">₪18
+                                                <br>50%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",4,evaluation,3,10,"2C,16C,22B,28A",50,18,5,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,254,576642,0.0-25.0-2.14,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,255,577645,0.0-25.0-0.15,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪4
+                                                <br>50%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,2,"4C,17B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,256,580027,0.0-25.0-1.15,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2381,"
+                  <p style=""text-align: center;"">₪4
+                                                <br>50%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",0,evaluation,56,2,"4C,17B",50,4,1,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,257,581428,0.0-25.0-2.15,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,258,582436,0.0-25.0-0.16,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,5,"12A,27B,28B,30B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,259,586448,0.0-25.0-1.16,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪11
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,51,5,"12A,27B,28B,30B",25,11,2,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,260,587926,0.0-25.0-2.16,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,261,588934,0.0-25.0-0.17,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪64
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,24,"6A,21A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,262,592943,0.0-25.0-1.17,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪64
+                                                <br>25%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,17,24,"6A,21A",25,64,5,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,263,593793,0.0-25.0-2.17,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,264,594803,0.0-25.0-0.18,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪71
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,28,8B,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,265,598814,0.0-25.0-1.18,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪71
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,42,28,8B,75,71,19,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,266,599472,0.0-25.0-2.18,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,267,600475,0.0-25.0-0.19,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪39
+                                                <br>65%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,16,"1A,15A,26C",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,268,604482,0.0-25.0-1.19,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪39
+                                                <br>65%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,29,16,"1A,15A,26C",65,39,8,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,269,605110,0.0-25.0-2.19,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,270,606122,0.0-25.0-0.20,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪61
+                                                <br>55%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,23,"7B,26B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,271,609907,0.0-25.0-1.20,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3784,"
+                  <p style=""text-align: center;"">₪61
+                                                <br>55%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",10,evaluation,67,23,"7B,26B",55,61,10,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,272,610467,0.0-25.0-2.20,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,273,611475,0.0-25.0-0.21,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪71
+                                                <br>55%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,27,"5B,18A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,274,615435,0.0-25.0-1.21,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3959,"
+                  <p style=""text-align: center;"">₪71
+                                                <br>55%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",17,evaluation,40,27,"5B,18A",55,71,17,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,275,616195,0.0-25.0-2.21,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,276,617198,0.0-25.0-0.22,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪61
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,22,"10A,11A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,277,620947,0.0-25.0-1.22,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3747,"
+                  <p style=""text-align: center;"">₪61
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",10,evaluation,65,22,"10A,11A",45,61,10,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,278,622219,0.0-25.0-2.22,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,279,623232,0.0-25.0-0.23,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>70%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,13,"3A,5C,10B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,280,627227,0.0-25.0-1.23,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3994,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>70%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",13,evaluation,31,13,"3A,5C,10B",70,36,13,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,281,627860,0.0-25.0-2.23,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,282,628873,0.0-25.0-0.24,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪58
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,21,"11C,18C,25A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,283,632877,0.0-25.0-1.24,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪58
+                                                <br>45%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,65,21,"11C,18C,25A",45,58,9,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,284,634094,0.0-25.0-2.24,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,285,635095,0.0-25.0-0.25,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪4
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,3,"12B,20B,23B,27C,29C",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,286,639098,0.0-25.0-1.25,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪4
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,20,3,"12B,20B,23B,27C,29C",75,4,0,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,287,639737,0.0-25.0-2.25,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,288,640739,0.0-25.0-0.26,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪79
+                                                <br>65%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,31,8A,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,289,644754,0.0-25.0-1.26,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪79
+                                                <br>65%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,70,31,8A,65,79,14,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,290,646033,0.0-25.0-2.26,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,291,647045,0.0-25.0-0.27,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪39
+                                                <br>60%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,15,"9C,25B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,292,649732,0.0-25.0-1.27,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2687,"
+                  <p style=""text-align: center;"">₪39
+                                                <br>60%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",10,evaluation,66,15,"9C,25B",60,39,10,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,293,651064,0.0-25.0-2.27,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,294,652074,0.0-25.0-0.28,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪43
+                                                <br>60%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,17,"2A,7A,9A,15B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,295,656076,0.0-25.0-1.28,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪43
+                                                <br>60%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,79,17,"2A,7A,9A,15B",60,43,4,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,296,656623,0.0-25.0-2.28,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,297,657639,0.0-25.0-0.29,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪58
+                                                <br>30%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,19,"13C,30A",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,298,661641,0.0-25.0-1.29,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"
+                  <p style=""text-align: center;"">₪58
+                                                <br>30%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",null,evaluation,38,19,"13C,30A",30,58,15,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,299,662860,0.0-25.0-2.29,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,300,663876,0.0-25.0-0.30,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,1000,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>&ensp;</p>",-,viewing,0,14,"4B,5A,13B,16B",,,,,,,,,,,,,,,,,
+,,,,,html-slider-response,301,666900,0.0-25.0-1.30,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3023,"
+                  <p style=""text-align: center;"">₪36
+                                                <br>75%</p>
+                  <p id=""wtp"" style=""text-align:center; margin-top: 0px; margin-bottom: 0px; font-size: 40px"";>מוכנים לשלם: <span id=""c_p_y""></span></p>",15,evaluation,34,14,"4B,5A,13B,16B",75,36,15,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,302,668341,0.0-25.0-2.30,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,303,669345,0.0-26.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,304,670046,0.0-27.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,,null,delay,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,305,680807,0.0-28.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,10759,"
+        <h1>יפה מאוד! סיימתם את חלק 1!</h1>
+        <p>מיד נעבור לחלק 2.</p>
+        <p>לחצו רווח במקלדת כדי להמשיך.</p>", ,instructions,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,306,694595,0.0-29.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,13731,"
+          <h1>חלק 2</h1>
+          <p>בחלק זה יוצגו בפניכם שתי הגרלות.
+          <br>אתם מתבקשים לבחור את ההגרלה שתרצו להשתתף בה.
+          <br>שימו לב! בסוף הניסוי נבחר שלב אחד באקראי ונממש את ההגרלה שבחרתם. כלומר, הבחירה שלכם יכולה להפוך לכסף אמיתי.
+          <br><br>לחצו רווח כדי להמשיך.</p>", ,instructions,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,307,704962,0.0-30.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,9666,"
+          <p>בואו נתחיל בדוגמה:
+          <br>לפניכם שתי הגרלות.
+          <br>לחצו 'A' אם אתם מעדיפים את ההגרלה השמאלית
+          <br>לחצו 'D' אם אתם מעדיפים את ההגרלה הימנית
+          <p class=""lotteries"">
+            <span><img src='img/A.png', width=""30""></span>
+            <span><img src='img/D.png', width=""30""></span>
+          </p>
+          <p class=""lotteries"">
+            <span>₪39</span>
+            <span>₪54</span>
+          </p>
+          <p class=""lotteries"">
+            <span>65%</span>
+            <span>35%</span>
+          </p>",a,example,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,308,711643,0.0-31.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,5971,"<p>יפה מאוד!
+                  <br>בחרתם את ההגרלה השמאלית. נשמע נכון?
+                  <br>בואו ננסה דוגמה נוספת:</p>
+                  <p class=""lotteries"">
+                    <span><img src='img/A.png', width=""30""></span>
+                    <span><img src='img/D.png', width=""30""></span>
+                  </p>
+                  <p class=""lotteries"">
+                    <span>₪29</span>
+                    <span>₪43</span>
+                  </p>
+                  <p class=""lotteries"">
+                    <span>30%</span>
+                    <span>65%</span>
+                  </p>",d,example,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,309,717731,0.0-32.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,5371,"<p>יפה. כעת בחרתם את ההגרלה הימנית. 
+                  <br>מיד נתחיל בניסוי.
+                  <br>אתם תראו זוגות של הגרלות ותתבקשו לבחור את ההגרלה המועדפת עליכם.
+                  <br><br>לחצו רווח כדי להמשיך.</p>", ,instructions,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,310,719031,0.0-33.0-0.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,311,723667,0.0-33.0-1.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,4633,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪71</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>45%</span>
+                    </p>",d,binary,,,,,,,A,31.95,16,16,0,B,A,45,71,,,,,
+,,,,,html-keyboard-response,312,724786,0.0-33.0-0.1,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,313,730499,0.0-33.0-1.1,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,5712,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪4</span>
+                      <span>₪18</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>25%</span>
+                    </p>",d,binary,,,,,,,A,4.5,23,23,0,B,A,25,18,,,,,
+,,,,,html-keyboard-response,314,731864,0.0-33.0-0.2,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,315,734411,0.0-33.0-1.2,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2546,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪61</span>
+                      <span>₪36</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>45%</span>
+                      <span>70%</span>
+                    </p>",d,binary,,,,,,,B,25.2,10,10,0,A,B,70,36,,,,,
+,,,,,html-keyboard-response,316,735607,0.0-33.0-0.3,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,317,740611,0.0-33.0-1.3,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,5003,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪61</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>55%</span>
+                      <span>60%</span>
+                    </p>",a,binary,,,,,,,B,33.55,7,7,0,B,A,55,61,,,,,
+,,,,,html-keyboard-response,318,741759,0.0-33.0-0.4,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,319,748579,0.0-33.0-1.4,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,6818,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪11</span>
+                      <span>₪71</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>55%</span>
+                    </p>",d,binary,,,,,,,A,39.05,18,18,0,B,A,55,71,,,,,
+,,,,,html-keyboard-response,320,749165,0.0-33.0-0.5,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,321,753387,0.0-33.0-1.5,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,4222,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪4</span>
+                      <span>₪36</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>30%</span>
+                    </p>",a,binary,,,,,,,B,3,20,20,0,B,A,75,4,,,,,
+,,,,,html-keyboard-response,322,754202,0.0-33.0-0.6,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,323,759154,0.0-33.0-1.6,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,4960,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪71</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>60%</span>
+                      <span>45%</span>
+                    </p>",a,binary,,,,,,,A,25.8,2,2,0,A,B,60,43,,,,,
+,,,,,html-keyboard-response,324,760066,0.0-33.0-0.7,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,325,764546,0.0-33.0-1.7,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,4479,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪71</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>55%</span>
+                    </p>",a,binary,,,,,,,A,27,5,5,0,A,B,75,36,,,,,
+,,,,,html-keyboard-response,326,765692,0.0-33.0-0.8,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,327,780090,0.0-33.0-1.8,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,14397,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪39</span>
+                      <span>₪58</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>60%</span>
+                      <span>45%</span>
+                    </p>",a,binary,,,,,,,B,23.4,25,25,0,B,A,60,39,,,,,
+,,,,,html-keyboard-response,328,781550,0.0-33.0-0.9,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,329,784938,0.0-33.0-1.9,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3388,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪11</span>
+                      <span>₪18</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>45%</span>
+                      <span>25%</span>
+                    </p>",a,binary,,,,,,,B,4.95,14,14,0,B,A,45,11,,,,,
+,,,,,html-keyboard-response,330,785679,0.0-33.0-0.10,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,331,795426,0.0-33.0-1.10,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,9746,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪39</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>60%</span>
+                      <span>65%</span>
+                    </p>",d,binary,,,,,,,A,25.35,15,15,0,B,A,65,39,,,,,
+,,,,,html-keyboard-response,332,796584,0.0-33.0-0.11,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,333,802858,0.0-33.0-1.11,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,6273,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪4</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>75%</span>
+                    </p>",d,binary,,,,,,,A,8.25,29,29,1,B,A,75,11,,,,,
+,,,,,html-keyboard-response,334,804305,0.0-33.0-0.12,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,335,811274,0.0-33.0-1.12,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,6967,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪18</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>50%</span>
+                      <span>25%</span>
+                    </p>",a,binary,,,,,,,A,9,28,28,1,A,B,50,18,,,,,
+,,,,,html-keyboard-response,336,812163,0.0-33.0-0.13,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,337,822866,0.0-33.0-1.13,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,10702,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪76</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>65%</span>
+                    </p>",d,binary,,,,,,,B,49.4,24,24,0,A,B,65,76,,,,,
+,,,,,html-keyboard-response,338,823457,0.0-33.0-0.14,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,339,836818,0.0-33.0-1.14,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,13360,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪11</span>
+                      <span>₪58</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>30%</span>
+                    </p>",d,binary,,,,,,,A,17.4,30,30,1,B,A,30,58,,,,,
+,,,,,html-keyboard-response,340,837559,0.0-33.0-0.15,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,341,843954,0.0-33.0-1.15,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,6394,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪16</span>
+                      <span>₪4</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>20%</span>
+                      <span>50%</span>
+                    </p>",d,binary,,,,,,,B,2,17,17,0,A,B,50,4,,,,,
+,,,,,html-keyboard-response,342,844554,0.0-33.0-0.16,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,343,854411,0.0-33.0-1.16,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,9855,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪76</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>65%</span>
+                      <span>75%</span>
+                    </p>",a,binary,,,,,,,A,49.4,19,19,0,A,B,65,76,,,,,
+,,,,,html-keyboard-response,344,855251,0.0-33.0-0.17,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,345,866115,0.0-33.0-1.17,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,10862,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪58</span>
+                      <span>₪36</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>40%</span>
+                      <span>75%</span>
+                    </p>",d,binary,,,,,,,B,27,13,13,0,A,B,75,36,,,,,
+,,,,,html-keyboard-response,346,867214,0.0-33.0-0.18,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,347,878547,0.0-33.0-1.18,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,11331,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪64</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>75%</span>
+                    </p>",d,binary,,,,,,,B,8.25,6,6,0,A,B,75,11,,,,,
+,,,,,html-keyboard-response,348,879190,0.0-33.0-0.19,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,349,883133,0.0-33.0-1.19,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3931,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪61</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>55%</span>
+                    </p>",a,binary,,,,,,,A,32.25,26,26,0,A,B,75,43,,,,,
+,,,,,html-keyboard-response,350,884522,0.0-33.0-0.20,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,351,886853,0.0-33.0-1.20,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2329,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪61</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>45%</span>
+                    </p>",a,binary,,,,,,,B,32.25,11,11,0,B,A,75,43,,,,,
+,,,,,html-keyboard-response,352,888096,0.0-33.0-0.21,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,353,892933,0.0-33.0-1.21,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,4836,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪71</span>
+                      <span>₪79</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>65%</span>
+                    </p>",a,binary,,,,,,,B,53.25,8,8,0,B,A,75,71,,,,,
+,,,,,html-keyboard-response,354,894361,0.0-33.0-0.22,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,355,902125,0.0-33.0-1.22,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,7763,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪58</span>
+                      <span>₪64</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>40%</span>
+                      <span>25%</span>
+                    </p>",a,binary,,,,,,,B,23.2,21,21,0,B,A,40,58,,,,,
+,,,,,html-keyboard-response,356,903468,0.0-33.0-0.23,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,357,910125,0.0-33.0-1.23,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,6655,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪79</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>40%</span>
+                      <span>60%</span>
+                    </p>",d,binary,,,,,,,A,25.8,9,9,0,B,A,60,43,,,,,
+,,,,,html-keyboard-response,358,911298,0.0-33.0-0.24,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,359,921093,0.0-33.0-1.24,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,9793,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪64</span>
+                      <span>₪39</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>50%</span>
+                      <span>65%</span>
+                    </p>",d,binary,,,,,,,A,25.35,1,1,0,B,A,65,39,,,,,
+,,,,,html-keyboard-response,360,922555,0.0-33.0-0.25,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,361,929661,0.0-33.0-1.25,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,7104,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪4</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>25%</span>
+                    </p>",a,binary,,,,,,,B,3,12,12,0,B,A,75,4,,,,,
+,,,,,html-keyboard-response,362,930567,0.0-33.0-0.26,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,363,936253,0.0-33.0-1.26,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,5684,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪64</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>50%</span>
+                    </p>",a,binary,,,,,,,B,27,4,4,0,B,A,75,36,,,,,
+,,,,,html-keyboard-response,364,937470,0.0-33.0-0.27,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,365,945204,0.0-33.0-1.27,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,7734,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪16</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>20%</span>
+                      <span>25%</span>
+                    </p>",a,binary,,,,,,,A,3.2,27,27,0,A,B,20,16,,,,,
+,,,,,html-keyboard-response,366,945911,0.0-33.0-0.28,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,367,953171,0.0-33.0-1.28,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,7260,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪64</span>
+                      <span>₪36</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>50%</span>
+                      <span>70%</span>
+                    </p>",d,binary,,,,,,,A,25.2,3,3,0,B,A,70,36,,,,,
+,,,,,html-keyboard-response,368,954668,0.0-33.0-0.29,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,369,964324,0.0-33.0-1.29,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,9655,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪18</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>30%</span>
+                      <span>50%</span>
+                    </p>",d,binary,,,,,,,B,9,22,22,0,A,B,50,18,,,,,
+,,,,,html-keyboard-response,370,965328,0.0-34.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,371,968811,0.0-35.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3483,"<p>הפסקה.
+          <br>לחצו כדי להמשיך.</p>", ,scan_wait,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,372,970064,0.0-36.0-0.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,373,978132,0.0-36.0-1.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,8066,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪61</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>55%</span>
+                      <span>60%</span>
+                    </p>",d,binary,,,,,,,A,25.8,7,7,0,B,A,60,43,,,,,
+,,,,,html-keyboard-response,374,978999,0.0-36.0-0.1,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,375,983539,0.0-36.0-1.1,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,4539,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪11</span>
+                      <span>₪71</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>55%</span>
+                    </p>",d,binary,,,,,,,A,39.05,18,18,0,B,A,55,71,,,,,
+,,,,,html-keyboard-response,376,984886,0.0-36.0-0.2,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,377,992028,0.0-36.0-1.2,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,7140,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪58</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>40%</span>
+                    </p>",a,binary,,,,,,,B,27,13,13,0,B,A,75,36,,,,,
+,,,,,html-keyboard-response,378,992866,0.0-36.0-0.3,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,379,997436,0.0-36.0-1.3,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,4568,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪71</span>
+                      <span>₪36</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>55%</span>
+                      <span>75%</span>
+                    </p>",a,binary,,,,,,,B,39.05,5,5,0,B,A,55,71,,,,,
+,,,,,html-keyboard-response,380,998868,0.0-36.0-0.4,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,381,1004500,0.0-36.0-1.4,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,5630,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪16</span>
+                      <span>₪4</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>20%</span>
+                      <span>50%</span>
+                    </p>",a,binary,,,,,,,A,3.2,17,17,0,A,B,20,16,,,,,
+,,,,,html-keyboard-response,382,1005377,0.0-36.0-0.5,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,383,1009621,0.0-36.0-1.5,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,4242,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪11</span>
+                      <span>₪18</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>50%</span>
+                    </p>",d,binary,,,,,,,A,9,28,28,1,B,A,50,18,,,,,
+,,,,,html-keyboard-response,384,1010502,0.0-36.0-0.6,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,385,1018805,0.0-36.0-1.6,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,8302,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪11</span>
+                      <span>₪18</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>45%</span>
+                      <span>25%</span>
+                    </p>",a,binary,,,,,,,B,4.95,14,14,0,B,A,45,11,,,,,
+,,,,,html-keyboard-response,386,1019416,0.0-36.0-0.7,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,387,1023349,0.0-36.0-1.7,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3931,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪11</span>
+                      <span>₪16</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>20%</span>
+                    </p>",a,binary,,,,,,,B,2.75,27,27,0,B,A,25,11,,,,,
+,,,,,html-keyboard-response,388,1023909,0.0-36.0-0.8,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,389,1031389,0.0-36.0-1.8,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,7479,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪71</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>60%</span>
+                      <span>45%</span>
+                    </p>",a,binary,,,,,,,A,25.8,2,2,0,A,B,60,43,,,,,
+,,,,,html-keyboard-response,390,1032008,0.0-36.0-0.9,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,391,1035940,0.0-36.0-1.9,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3931,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪39</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>60%</span>
+                      <span>65%</span>
+                    </p>",d,binary,,,,,,,A,25.35,15,15,0,B,A,65,39,,,,,
+,,,,,html-keyboard-response,392,1036639,0.0-36.0-0.10,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,393,1043917,0.0-36.0-1.10,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,7277,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪18</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>30%</span>
+                      <span>50%</span>
+                    </p>",d,binary,,,,,,,B,9,22,22,0,A,B,50,18,,,,,
+,,,,,html-keyboard-response,394,1045063,0.0-36.0-0.11,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,395,1048981,0.0-36.0-1.11,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3916,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪58</span>
+                      <span>₪64</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>40%</span>
+                      <span>25%</span>
+                    </p>",a,binary,,,,,,,B,23.2,21,21,0,B,A,40,58,,,,,
+,,,,,html-keyboard-response,396,1050300,0.0-36.0-0.12,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,397,1054757,0.0-36.0-1.12,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,4455,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪76</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>65%</span>
+                    </p>",d,binary,,,,,,,B,49.4,24,24,0,A,B,65,76,,,,,
+,,,,,html-keyboard-response,398,1056058,0.0-36.0-0.13,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,399,1067293,0.0-36.0-1.13,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,11249,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪79</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>40%</span>
+                      <span>60%</span>
+                    </p>",a,binary,,,,,,,B,31.6,9,9,0,B,A,40,79,,,,,
+,,,,,html-keyboard-response,400,1068759,0.0-36.0-0.14,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,401,1085110,0.0-36.0-1.14,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,16349,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪58</span>
+                      <span>₪39</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>45%</span>
+                      <span>60%</span>
+                    </p>",d,binary,,,,,,,B,23.4,25,25,0,A,B,60,39,,,,,
+,,,,,html-keyboard-response,402,1086462,0.0-36.0-0.15,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,403,1094350,0.0-36.0-1.15,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,7887,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪4</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>30%</span>
+                      <span>75%</span>
+                    </p>",a,binary,,,,,,,A,10.8,20,20,0,A,B,30,36,,,,,
+,,,,,html-keyboard-response,404,1095091,0.0-36.0-0.16,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,405,1112215,0.0-36.0-1.16,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,17123,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪61</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>70%</span>
+                      <span>45%</span>
+                    </p>",a,binary,,,,,,,B,25.2,10,10,0,B,A,70,36,,,,,
+,,,,,html-keyboard-response,406,1112834,0.0-36.0-0.17,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,407,1126151,0.0-36.0-1.17,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,13316,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪64</span>
+                      <span>₪39</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>50%</span>
+                      <span>65%</span>
+                    </p>",d,binary,,,,,,,A,25.35,1,1,0,B,A,65,39,,,,,
+,,,,,html-keyboard-response,408,1127468,0.0-36.0-0.18,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,409,1133325,0.0-36.0-1.18,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,5857,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪61</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>55%</span>
+                      <span>75%</span>
+                    </p>",d,binary,,,,,,,A,32.25,26,26,0,B,A,75,43,,,,,
+,,,,,html-keyboard-response,410,1134528,0.0-36.0-0.19,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,411,1141357,0.0-36.0-1.19,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,6828,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪76</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>65%</span>
+                    </p>",a,binary,,,,,,,B,32.25,19,19,0,B,A,75,43,,,,,
+,,,,,html-keyboard-response,412,1142846,0.0-36.0-0.20,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,413,1148037,0.0-36.0-1.20,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,5190,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪58</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>30%</span>
+                      <span>25%</span>
+                    </p>",a,binary,,,,,,,A,17.4,30,30,1,A,B,30,58,,,,,
+,,,,,html-keyboard-response,414,1149054,0.0-36.0-0.21,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,415,1156573,0.0-36.0-1.21,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,7518,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪11</span>
+                      <span>₪4</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>75%</span>
+                    </p>",a,binary,,,,,,,A,2.75,12,12,0,A,B,25,11,,,,,
+,,,,,html-keyboard-response,416,1157315,0.0-36.0-0.22,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,417,1163229,0.0-36.0-1.22,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,5913,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪61</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>45%</span>
+                    </p>",a,binary,,,,,,,B,32.25,11,11,0,B,A,75,43,,,,,
+,,,,,html-keyboard-response,418,1164439,0.0-36.0-0.23,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,419,1168310,0.0-36.0-1.23,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3870,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪64</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>70%</span>
+                      <span>50%</span>
+                    </p>",a,binary,,,,,,,A,25.2,3,3,0,A,B,70,36,,,,,
+,,,,,html-keyboard-response,420,1169429,0.0-36.0-0.24,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,421,1181685,0.0-36.0-1.24,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,12255,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪79</span>
+                      <span>₪71</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>65%</span>
+                      <span>75%</span>
+                    </p>",d,binary,,,,,,,B,53.25,8,8,0,A,B,75,71,,,,,
+,,,,,html-keyboard-response,422,1182557,0.0-36.0-0.25,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,423,1186925,0.0-36.0-1.25,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,4367,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪64</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>50%</span>
+                    </p>",a,binary,,,,,,,B,27,4,4,0,B,A,75,36,,,,,
+,,,,,html-keyboard-response,424,1188422,0.0-36.0-0.26,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,425,1191261,0.0-36.0-1.26,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2838,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪4</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>75%</span>
+                    </p>",d,binary,,,,,,,A,8.25,29,29,1,B,A,75,11,,,,,
+,,,,,html-keyboard-response,426,1191912,0.0-36.0-0.27,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,427,1198837,0.0-36.0-1.27,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,6924,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪64</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>75%</span>
+                    </p>",d,binary,,,,,,,B,8.25,6,6,0,A,B,75,11,,,,,
+,,,,,html-keyboard-response,428,1199528,0.0-36.0-0.28,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,429,1204573,0.0-36.0-1.28,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,5044,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪4</span>
+                      <span>₪18</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>25%</span>
+                    </p>",a,binary,,,,,,,B,3,23,23,0,B,A,75,4,,,,,
+,,,,,html-keyboard-response,430,1205157,0.0-36.0-0.29,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,431,1214629,0.0-36.0-1.29,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,9471,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪71</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>45%</span>
+                    </p>",a,binary,,,,,,,B,27,16,16,0,B,A,75,36,,,,,
+,,,,,html-keyboard-response,432,1215642,0.0-37.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,433,1226444,0.0-38.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,10801,"<p>הפסקה.
+          <br>לחצו כדי להמשיך.</p>", ,scan_wait,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,434,1227095,0.0-39.0-0.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,435,1230317,0.0-39.0-1.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3222,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪71</span>
+                      <span>₪79</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>65%</span>
+                    </p>",a,binary,,,,,,,B,53.25,8,8,0,B,A,75,71,,,,,
+,,,,,html-keyboard-response,436,1231004,0.0-39.0-0.1,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,437,1236005,0.0-39.0-1.1,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,5000,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪64</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>50%</span>
+                    </p>",a,binary,,,,,,,B,27,4,4,0,B,A,75,36,,,,,
+,,,,,html-keyboard-response,438,1237299,0.0-39.0-0.2,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,439,1244933,0.0-39.0-1.2,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,7632,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪71</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>55%</span>
+                    </p>",a,binary,,,,,,,A,27,5,5,0,A,B,75,36,,,,,
+,,,,,html-keyboard-response,440,1246109,0.0-39.0-0.3,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,441,1256088,0.0-39.0-1.3,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,9991,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪18</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>30%</span>
+                      <span>50%</span>
+                    </p>",d,binary,,,,,,,B,9,22,22,0,A,B,50,18,,,,,
+,,,,,html-keyboard-response,442,1256999,0.0-39.0-0.4,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,443,1262744,0.0-39.0-1.4,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,5744,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪71</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>55%</span>
+                      <span>75%</span>
+                    </p>",a,binary,,,,,,,A,39.05,18,18,0,A,B,55,71,,,,,
+,,,,,html-keyboard-response,444,1263346,0.0-39.0-0.5,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,445,1266712,0.0-39.0-1.5,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3365,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪18</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>45%</span>
+                    </p>",d,binary,,,,,,,B,4.95,14,14,0,A,B,45,11,,,,,
+,,,,,html-keyboard-response,446,1267608,0.0-39.0-0.6,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,447,1270408,0.0-39.0-1.6,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2799,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪39</span>
+                      <span>₪58</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>60%</span>
+                      <span>45%</span>
+                    </p>",a,binary,,,,,,,B,23.4,25,25,0,B,A,60,39,,,,,
+,,,,,html-keyboard-response,448,1270948,0.0-39.0-0.7,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,449,1274945,0.0-39.0-1.7,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3996,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪71</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>45%</span>
+                      <span>60%</span>
+                    </p>",d,binary,,,,,,,A,25.8,2,2,0,B,A,60,43,,,,,
+,,,,,html-keyboard-response,450,1275815,0.0-39.0-0.8,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,451,1284984,0.0-39.0-1.8,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,9168,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪16</span>
+                      <span>₪4</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>20%</span>
+                      <span>50%</span>
+                    </p>",a,binary,,,,,,,A,3.2,17,17,0,A,B,20,16,,,,,
+,,,,,html-keyboard-response,452,1285795,0.0-39.0-0.9,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,453,1293217,0.0-39.0-1.9,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,7420,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪61</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>70%</span>
+                      <span>45%</span>
+                    </p>",a,binary,,,,,,,B,25.2,10,10,0,B,A,70,36,,,,,
+,,,,,html-keyboard-response,454,1294406,0.0-39.0-0.10,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,455,1297801,0.0-39.0-1.10,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3393,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪58</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>40%</span>
+                    </p>",a,binary,,,,,,,B,27,13,13,0,B,A,75,36,,,,,
+,,,,,html-keyboard-response,456,1298639,0.0-39.0-0.11,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,457,1306641,0.0-39.0-1.11,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,8000,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪61</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>45%</span>
+                    </p>",a,binary,,,,,,,B,32.25,11,11,0,B,A,75,43,,,,,
+,,,,,html-keyboard-response,458,1308076,0.0-39.0-0.12,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,459,1313224,0.0-39.0-1.12,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,5147,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪76</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>65%</span>
+                      <span>75%</span>
+                    </p>",d,binary,,,,,,,B,32.25,19,19,0,A,B,75,43,,,,,
+,,,,,html-keyboard-response,460,1314426,0.0-39.0-0.13,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,461,1316489,0.0-39.0-1.13,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2061,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪16</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>20%</span>
+                      <span>25%</span>
+                    </p>",a,binary,,,,,,,A,3.2,27,27,0,A,B,20,16,,,,,
+,,,,,html-keyboard-response,462,1317873,0.0-39.0-0.14,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,463,1322209,0.0-39.0-1.14,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,4335,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪11</span>
+                      <span>₪4</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>25%</span>
+                    </p>",a,binary,,,,,,,A,8.25,29,29,1,A,B,75,11,,,,,
+,,,,,html-keyboard-response,464,1323094,0.0-39.0-0.15,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,465,1330249,0.0-39.0-1.15,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,7154,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪4</span>
+                      <span>₪18</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>25%</span>
+                    </p>",a,binary,,,,,,,B,3,23,23,0,B,A,75,4,,,,,
+,,,,,html-keyboard-response,466,1331612,0.0-39.0-0.16,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,467,1336497,0.0-39.0-1.16,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,4885,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪64</span>
+                      <span>₪36</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>50%</span>
+                      <span>70%</span>
+                    </p>",d,binary,,,,,,,A,25.2,3,3,0,B,A,70,36,,,,,
+,,,,,html-keyboard-response,468,1337631,0.0-39.0-0.17,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,469,1342873,0.0-39.0-1.17,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,5241,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪79</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>40%</span>
+                      <span>60%</span>
+                    </p>",a,binary,,,,,,,B,31.6,9,9,0,B,A,40,79,,,,,
+,,,,,html-keyboard-response,470,1344141,0.0-39.0-0.18,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,471,1348409,0.0-39.0-1.18,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,4267,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪76</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>65%</span>
+                    </p>",a,binary,,,,,,,A,32.25,24,24,0,A,B,75,43,,,,,
+,,,,,html-keyboard-response,472,1349019,0.0-39.0-0.19,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,473,1355601,0.0-39.0-1.19,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,6581,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪61</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>55%</span>
+                      <span>60%</span>
+                    </p>",d,binary,,,,,,,A,25.8,7,7,0,B,A,60,43,,,,,
+,,,,,html-keyboard-response,474,1356567,0.0-39.0-0.20,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,475,1361024,0.0-39.0-1.20,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,4457,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪71</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>45%</span>
+                    </p>",d,binary,,,,,,,A,31.95,16,16,0,B,A,45,71,,,,,
+,,,,,html-keyboard-response,476,1361796,0.0-39.0-0.21,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,477,1363929,0.0-39.0-1.21,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,2132,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪39</span>
+                      <span>₪64</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>65%</span>
+                      <span>50%</span>
+                    </p>",a,binary,,,,,,,A,25.35,1,1,0,A,B,65,39,,,,,
+,,,,,html-keyboard-response,478,1365212,0.0-39.0-0.22,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,479,1375985,0.0-39.0-1.22,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,10772,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪11</span>
+                      <span>₪64</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>25%</span>
+                    </p>",a,binary,,,,,,,B,8.25,6,6,0,B,A,75,11,,,,,
+,,,,,html-keyboard-response,480,1376794,0.0-39.0-0.23,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,481,1381620,0.0-39.0-1.23,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,4825,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪58</span>
+                      <span>₪64</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>40%</span>
+                      <span>25%</span>
+                    </p>",a,binary,,,,,,,B,23.2,21,21,0,B,A,40,58,,,,,
+,,,,,html-keyboard-response,482,1382669,0.0-39.0-0.24,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,483,1386965,0.0-39.0-1.24,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,4295,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪39</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>60%</span>
+                      <span>65%</span>
+                    </p>",d,binary,,,,,,,A,25.35,15,15,0,B,A,65,39,,,,,
+,,,,,html-keyboard-response,484,1388202,0.0-39.0-0.25,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,485,1398102,0.0-39.0-1.25,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,9899,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪4</span>
+                      <span>₪36</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>30%</span>
+                    </p>",a,binary,,,,,,,B,3,20,20,0,B,A,75,4,,,,,
+,,,,,html-keyboard-response,486,1399187,0.0-39.0-0.26,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,487,1402533,0.0-39.0-1.26,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3345,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪61</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>55%</span>
+                    </p>",a,binary,,,,,,,A,32.25,26,26,0,A,B,75,43,,,,,
+,,,,,html-keyboard-response,488,1403322,0.0-39.0-0.27,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,489,1407245,0.0-39.0-1.27,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3922,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪11</span>
+                      <span>₪18</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>50%</span>
+                    </p>",d,binary,,,,,,,A,9,28,28,1,B,A,50,18,,,,,
+,,,,,html-keyboard-response,490,1408351,0.0-39.0-0.28,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,491,1413557,0.0-39.0-1.28,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,5205,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪11</span>
+                      <span>₪58</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>30%</span>
+                    </p>",d,binary,,,,,,,A,17.4,30,30,1,B,A,30,58,,,,,
+,,,,,html-keyboard-response,492,1414465,0.0-39.0-0.29,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,493,1419981,0.0-39.0-1.29,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,5514,"
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪11</span>
+                      <span>₪4</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>75%</span>
+                    </p>",d,binary,,,,,,,B,3,12,12,0,A,B,75,4,,,,,
+,,,,,html-keyboard-response,494,1420994,0.0-40.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,"<p style=""text-align: center;"">+</p>",null,fixation,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,495,1421695,0.0-41.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,null,,null,delay,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,496,1426581,0.0-42.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,4886,"<h1>הסוף</h1>
+        <p>אנו מודים לכם על ההשתתפות!
+        <p>כעת נשחק את אחת ההגרלות שבחרתם.
+        <brאנא המתינו לאחראים לצורך הרצת ההגרלה</p>", ,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,497,1431693,0.0-43.0-0.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,5110,"<p style=""text-align: center;"">ההגרלה שנבחרה באקראי היא:</p>
+                              <p style=""text-align: center;"">₪76
+                                                          <br>65%</p>
+                              <p style=""text-align: center;"">בחרתם לשלם לכל היותר: ₪10</p>", ,,,,,,,,,,,,,,,,,65,76,76,,130
+,,,,,html-keyboard-response,498,1434717,0.0-43.0-1.0-0.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,3022,"<p style=""text-align: center;"">המחיר שנקבע להשתתפות בהגרלה הוא:</p>
+                 <p style=""text-align: center;"">₪26</p>
+                 <p>המחיר גבוה 
+                 מהמחיר שהצעתם, ולכן לא תשתתפו בהגרלה.</p>
+                 <p>לחצו להמשך.</p>", ,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,499,1450116,0.0-43.0-1.0-1.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,15399,"<p>שילמתם 26 מתוך התקציב של ₪80 ותשחקו בהגרלה:</p>
+                    <p>ותשחקו את ההגרלה:</p>
+                    <p style=""text-align: center;"">₪76
+                                                <br>65%</p>
+                    <p>לחצו כדי לשחק את ההגרלה!</p>", ,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,500,1515937,0.0-43.0-1.0-2.0,e945a69c-3c1d-47e5-8dcc-c414004fbdc8,65823,"<p style=""text-align: center;"">₪76
+                                                          <br>65%</p>
+                        <p>זכיתם ב-₪76, בנוסף לתקציב הנותר שלכם.</p>
+                        <p style=""text-align: center; color: #68d986;"">בסך הכל זכיתם ב-₪130.</p>
+                        <p>אנא המתינו במסך זה.</p>", ,,,,,,,,,,,,,,,,,,,,,
