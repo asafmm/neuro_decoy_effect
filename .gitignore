@@ -1,3 +1,4 @@
 data/subject_representations
-data/rdms/full_*
 mri_masks/*
+.DS_Store
+*.pyc
