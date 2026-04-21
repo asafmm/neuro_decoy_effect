@@ -1,0 +1,1318 @@
+"success","timeout","failed_images","failed_audio","failed_video","trial_type","trial_index","time_elapsed","internal_node_id","subject_id","rt","stimulus","response","part","actual_choice","actual_EV","binary_id","trinary_id","catch","A_key","D_key","choice_prob","choice_amount","chosen_part","accuracy"
+"true","false","[]","[]","[]","preload","0","7","0.0-0.0","044","","","","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","1","710","0.0-1.0","044","null","","null","delay","","","","","","","","","","",""
+"","","","","","html-keyboard-response","2","26856","0.0-2.0","044","26145","
+          <h1>חלק 2</h1>
+          <p>בחלק זה יוצגו בפניכם שתי הגרלות.
+          <br>אתם מתבקשים לבחור את ההגרלה שתרצו להשתתף בה.
+          <br>שימו לב! בסוף הניסוי נבחר שלב אחד באקראי ונממש את ההגרלה שבחרתם. כלומר, הבחירה שלכם יכולה להפוך לכסף אמיתי.
+          <br><br>לחצו רווח כדי להמשיך.</p>"," ","instructions","","","","","","","","","","",""
+"","","","","","html-keyboard-response","3","38978","0.0-3.0","044","11407","
+          <p>בואו נתחיל בדוגמה:
+          <br>לפניכם שתי הגרלות.
+          <br>לחצו 'A' אם אתם מעדיפים את ההגרלה השמאלית
+          <br>לחצו 'D' אם אתם מעדיפים את ההגרלה הימנית
+          <p class=""lotteries"">
+            <span><img src='img/A.png', width=""30""></span>
+            <span><img src='img/D.png', width=""30""></span>
+          </p>
+          <p class=""lotteries"">
+            <span>₪39</span>
+            <span>₪54</span>
+          </p>
+          <p class=""lotteries"">
+            <span>65%</span>
+            <span>35%</span>
+          </p>","a","example","","","","","","","","","","",""
+"","","","","","html-keyboard-response","4","46896","0.0-4.0","044","7205","<p>יפה מאוד!
+                  <br>בחרתם את ההגרלה השמאלית. נשמע נכון?
+                  <br>בואו ננסה דוגמה נוספת:</p>
+                  <p class=""lotteries"">
+                    <span><img src='img/A.png', width=""30""></span>
+                    <span><img src='img/D.png', width=""30""></span>
+                  </p>
+                  <p class=""lotteries"">
+                    <span>₪29</span>
+                    <span>₪43</span>
+                  </p>
+                  <p class=""lotteries"">
+                    <span>30%</span>
+                    <span>65%</span>
+                  </p>","d","example","","","","","","","","","","",""
+"","","","","","html-keyboard-response","5","50689","0.0-5.0","044","3086","<p>יפה. כעת בחרתם את ההגרלה הימנית. 
+                  <br>מיד נתחיל בניסוי.
+                  <br>אתם תראו זוגות של הגרלות ותתבקשו לבחור את ההגרלה המועדפת עליכם.
+                  <br><br>לחצו רווח כדי להמשיך.</p>"," ","instructions","","","","","","","","","","",""
+"","","","","","html-keyboard-response","6","52602","0.0-6.0-0.0","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","7","61400","0.0-6.0-1.0","044","8794","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪61</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>45%</span>
+                      <span>75%</span>
+                    </p>","d","binary","B","32.25","11","11","0","A","B","75","43","",""
+"","","","","","html-keyboard-response","8","62289","0.0-6.0-0.1","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","9","66842","0.0-6.0-1.1","044","4551","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪71</span>
+                      <span>₪79</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>65%</span>
+                    </p>","a","binary","B","53.25","8","8","0","B","A","75","71","",""
+"","","","","","html-keyboard-response","10","68239","0.0-6.0-0.2","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","11","73737","0.0-6.0-1.2","044","5497","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪39</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>65%</span>
+                      <span>60%</span>
+                    </p>","d","binary","B","25.8","15","15","0","A","B","60","43","",""
+"","","","","","html-keyboard-response","12","74918","0.0-6.0-0.3","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","13","79945","0.0-6.0-1.3","044","5026","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪61</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>70%</span>
+                      <span>45%</span>
+                    </p>","a","binary","B","25.2","10","10","0","B","A","70","36","",""
+"","","","","","html-keyboard-response","14","81416","0.0-6.0-0.4","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","15","84577","0.0-6.0-1.4","044","3160","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪39</span>
+                      <span>₪58</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>60%</span>
+                      <span>45%</span>
+                    </p>","d","binary","A","26.1","25","25","0","B","A","45","58","",""
+"","","","","","html-keyboard-response","16","85643","0.0-6.0-0.5","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","17","89897","0.0-6.0-1.5","044","4252","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪58</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>40%</span>
+                    </p>","a","binary","B","27","13","13","0","B","A","75","36","",""
+"","","","","","html-keyboard-response","18","90679","0.0-6.0-0.6","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","19","97153","0.0-6.0-1.6","044","6473","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪58</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>30%</span>
+                      <span>25%</span>
+                    </p>","a","binary","A","17.4","30","30","1","A","B","30","58","",""
+"","","","","","html-keyboard-response","20","97709","0.0-6.0-0.7","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","21","104219","0.0-6.0-1.7","044","6515","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪18</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>45%</span>
+                    </p>","d","binary","B","4.95","14","14","0","A","B","45","11","",""
+"","","","","","html-keyboard-response","22","105223","0.0-6.0-0.8","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","23","113938","0.0-6.0-1.8","044","8714","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪64</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>75%</span>
+                    </p>","a","binary","A","16","6","6","0","A","B","25","64","",""
+"","","","","","html-keyboard-response","24","114487","0.0-6.0-0.9","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","25","119946","0.0-6.0-1.9","044","5458","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪18</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>50%</span>
+                      <span>25%</span>
+                    </p>","a","binary","A","9","28","28","1","A","B","50","18","",""
+"","","","","","html-keyboard-response","26","121236","0.0-6.0-0.10","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","27","129050","0.0-6.0-1.10","044","7813","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪76</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>65%</span>
+                    </p>","d","binary","B","49.4","24","24","0","A","B","65","76","",""
+"","","","","","html-keyboard-response","28","129806","0.0-6.0-0.11","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","29","135194","0.0-6.0-1.11","044","5387","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪18</span>
+                      <span>₪4</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>75%</span>
+                    </p>","d","binary","B","3","23","23","0","A","B","75","4","",""
+"","","","","","html-keyboard-response","30","136486","0.0-6.0-0.12","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","31","141131","0.0-6.0-1.12","044","4644","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪71</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>55%</span>
+                    </p>","d","binary","B","39.05","5","5","0","A","B","55","71","",""
+"","","","","","html-keyboard-response","32","141827","0.0-6.0-0.13","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","33","151043","0.0-6.0-1.13","044","9214","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪11</span>
+                      <span>₪16</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>20%</span>
+                    </p>","a","binary","B","2.75","27","27","0","B","A","25","11","",""
+"","","","","","html-keyboard-response","34","152508","0.0-6.0-0.14","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","35","159194","0.0-6.0-1.14","044","6685","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪61</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>55%</span>
+                      <span>60%</span>
+                    </p>","a","binary","B","33.55","7","7","0","B","A","55","61","",""
+"","","","","","html-keyboard-response","36","160063","0.0-6.0-0.15","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","37","165005","0.0-6.0-1.15","044","4938","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪58</span>
+                      <span>₪64</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>40%</span>
+                      <span>25%</span>
+                    </p>","a","binary","B","23.2","21","21","0","B","A","40","58","",""
+"","","","","","html-keyboard-response","38","166367","0.0-6.0-0.16","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","39","174333","0.0-6.0-1.16","044","7965","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪71</span>
+                      <span>₪36</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>45%</span>
+                      <span>75%</span>
+                    </p>","a","binary","A","31.95","16","16","0","A","B","45","71","",""
+"","","","","","html-keyboard-response","40","174981","0.0-6.0-0.17","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","41","186565","0.0-6.0-1.17","044","11583","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪4</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>30%</span>
+                      <span>75%</span>
+                    </p>","a","binary","A","10.8","20","20","0","A","B","30","36","",""
+"","","","","","html-keyboard-response","42","187776","0.0-6.0-0.18","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","43","197421","0.0-6.0-1.18","044","9644","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪61</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>55%</span>
+                      <span>75%</span>
+                    </p>","d","binary","A","32.25","26","26","0","B","A","75","43","",""
+"","","","","","html-keyboard-response","44","198704","0.0-6.0-0.19","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","45","200661","0.0-6.0-1.19","044","1956","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪71</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>55%</span>
+                      <span>75%</span>
+                    </p>","a","binary","A","39.05","18","18","0","A","B","55","71","",""
+"","","","","","html-keyboard-response","46","201859","0.0-6.0-0.20","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","47","213269","0.0-6.0-1.20","044","11408","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪18</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>30%</span>
+                      <span>50%</span>
+                    </p>","a","binary","A","10.8","22","22","0","A","B","30","36","",""
+"","","","","","html-keyboard-response","48","214648","0.0-6.0-0.21","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","49","217853","0.0-6.0-1.21","044","3204","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪76</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>65%</span>
+                    </p>","d","binary","A","49.4","19","19","0","B","A","65","76","",""
+"","","","","","html-keyboard-response","50","218372","0.0-6.0-0.22","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","51","222910","0.0-6.0-1.22","044","4537","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪4</span>
+                      <span>₪16</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>50%</span>
+                      <span>20%</span>
+                    </p>","a","binary","B","2","17","17","0","B","A","50","4","",""
+"","","","","","html-keyboard-response","52","224109","0.0-6.0-0.23","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","53","226474","0.0-6.0-1.23","044","2359","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪64</span>
+                      <span>₪36</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>50%</span>
+                      <span>70%</span>
+                    </p>","a","binary","B","32","3","3","0","B","A","50","64","",""
+"","","","","","html-keyboard-response","54","227977","0.0-6.0-0.24","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","55","232018","0.0-6.0-1.24","044","4039","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪71</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>45%</span>
+                      <span>60%</span>
+                    </p>","d","binary","A","25.8","2","2","0","B","A","60","43","",""
+"","","","","","html-keyboard-response","56","232776","0.0-6.0-0.25","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","57","237562","0.0-6.0-1.25","044","4785","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪64</span>
+                      <span>₪39</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>50%</span>
+                      <span>65%</span>
+                    </p>","a","binary","B","32","1","1","0","B","A","50","64","",""
+"","","","","","html-keyboard-response","58","238544","0.0-6.0-0.26","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","59","243994","0.0-6.0-1.26","044","5448","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪64</span>
+                      <span>₪36</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>50%</span>
+                      <span>75%</span>
+                    </p>","d","binary","B","27","4","4","0","A","B","75","36","",""
+"","","","","","html-keyboard-response","60","244618","0.0-6.0-0.27","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","61","250130","0.0-6.0-1.27","044","5510","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪4</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>25%</span>
+                    </p>","d","binary","A","2.75","12","12","0","B","A","25","11","",""
+"","","","","","html-keyboard-response","62","250970","0.0-6.0-0.28","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","63","261402","0.0-6.0-1.28","044","10430","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪79</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>60%</span>
+                      <span>40%</span>
+                    </p>","a","binary","A","25.8","9","9","0","A","B","60","43","",""
+"","","","","","html-keyboard-response","64","262317","0.0-6.0-0.29","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","65","267818","0.0-6.0-1.29","044","5499","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪11</span>
+                      <span>₪4</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>25%</span>
+                    </p>","a","binary","A","8.25","29","29","1","A","B","75","11","",""
+"","","","","","html-keyboard-response","66","268827","0.0-7.0","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","67","270962","0.0-8.0","044","2133","<p>הפסקה.
+          <br>לחצו על רווח כדי להמשיך.</p>"," ","scan_wait","","","","","","","","","","",""
+"","","","","","html-keyboard-response","68","271524","0.0-9.0-0.0","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","69","274618","0.0-9.0-1.0","044","3092","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪71</span>
+                      <span>₪36</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>55%</span>
+                      <span>75%</span>
+                    </p>","a","binary","B","39.05","5","5","0","B","A","55","71","",""
+"","","","","","html-keyboard-response","70","275471","0.0-9.0-0.1","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","71","279250","0.0-9.0-1.1","044","3777","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪79</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>40%</span>
+                      <span>60%</span>
+                    </p>","d","binary","A","25.8","9","9","0","B","A","60","43","",""
+"","","","","","html-keyboard-response","72","279995","0.0-9.0-0.2","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","73","288027","0.0-9.0-1.2","044","8038","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪71</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>60%</span>
+                      <span>45%</span>
+                    </p>","d","binary","B","31.95","2","2","0","A","B","45","71","",""
+"","","","","","html-keyboard-response","74","288740","0.0-9.0-0.3","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","75","293067","0.0-9.0-1.3","044","4326","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪64</span>
+                      <span>₪58</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>40%</span>
+                    </p>","d","binary","B","23.2","21","21","0","A","B","40","58","",""
+"","","","","","html-keyboard-response","76","294347","0.0-9.0-0.4","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","77","298883","0.0-9.0-1.4","044","4535","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪61</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>70%</span>
+                      <span>45%</span>
+                    </p>","d","binary","A","27.45","10","10","0","B","A","45","61","",""
+"","","","","","html-keyboard-response","78","300354","0.0-9.0-0.5","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","79","303227","0.0-9.0-1.5","044","2871","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪11</span>
+                      <span>₪18</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>50%</span>
+                    </p>","d","binary","A","9","28","28","1","B","A","50","18","",""
+"","","","","","html-keyboard-response","80","304330","0.0-9.0-0.6","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","81","306027","0.0-9.0-1.6","044","1696","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪71</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>55%</span>
+                      <span>75%</span>
+                    </p>","a","binary","A","39.05","18","18","0","A","B","55","71","",""
+"","","","","","html-keyboard-response","82","307424","0.0-9.0-0.7","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","83","312571","0.0-9.0-1.7","044","5146","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪18</span>
+                      <span>₪4</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>75%</span>
+                    </p>","d","binary","B","3","23","23","0","A","B","75","4","",""
+"","","","","","html-keyboard-response","84","313553","0.0-9.0-0.8","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","85","320235","0.0-9.0-1.8","044","6681","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪76</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>65%</span>
+                      <span>75%</span>
+                    </p>","a","binary","B","49.4","24","24","0","B","A","65","76","",""
+"","","","","","html-keyboard-response","86","321734","0.0-9.0-0.9","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","87","324521","0.0-9.0-1.9","044","2786","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪71</span>
+                      <span>₪79</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>65%</span>
+                    </p>","a","binary","B","53.25","8","8","0","B","A","75","71","",""
+"","","","","","html-keyboard-response","88","325534","0.0-9.0-0.10","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","89","328227","0.0-9.0-1.10","044","2692","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪64</span>
+                      <span>₪39</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>50%</span>
+                      <span>65%</span>
+                    </p>","a","binary","B","32","1","1","0","B","A","50","64","",""
+"","","","","","html-keyboard-response","90","329328","0.0-9.0-0.11","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","91","333803","0.0-9.0-1.11","044","4474","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪18</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>45%</span>
+                    </p>","d","binary","B","4.95","14","14","0","A","B","45","11","",""
+"","","","","","html-keyboard-response","92","335003","0.0-9.0-0.12","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","93","337507","0.0-9.0-1.12","044","2502","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪64</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>75%</span>
+                    </p>","d","binary","B","8.25","6","6","0","A","B","75","11","",""
+"","","","","","html-keyboard-response","94","338547","0.0-9.0-0.13","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","95","341355","0.0-9.0-1.13","044","2807","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪61</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>55%</span>
+                    </p>","a","binary","A","32.25","26","26","0","A","B","75","43","",""
+"","","","","","html-keyboard-response","96","342600","0.0-9.0-0.14","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","97","345683","0.0-9.0-1.14","044","3081","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪4</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>75%</span>
+                    </p>","d","binary","A","8.25","29","29","1","B","A","75","11","",""
+"","","","","","html-keyboard-response","98","346684","0.0-9.0-0.15","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","99","351272","0.0-9.0-1.15","044","4582","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪16</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>20%</span>
+                      <span>25%</span>
+                    </p>","a","binary","A","3.2","27","27","0","A","B","20","16","",""
+"","","","","","html-keyboard-response","100","352038","0.0-9.0-0.16","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","101","355392","0.0-9.0-1.16","044","3353","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪39</span>
+                      <span>₪58</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>60%</span>
+                      <span>45%</span>
+                    </p>","a","binary","B","23.4","25","25","0","B","A","60","39","",""
+"","","","","","html-keyboard-response","102","356763","0.0-9.0-0.17","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","103","361328","0.0-9.0-1.17","044","4564","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪71</span>
+                      <span>₪36</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>45%</span>
+                      <span>75%</span>
+                    </p>","d","binary","B","27","16","16","0","A","B","75","36","",""
+"","","","","","html-keyboard-response","104","361946","0.0-9.0-0.18","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","105","364144","0.0-9.0-1.18","044","2196","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪76</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>65%</span>
+                      <span>75%</span>
+                    </p>","a","binary","A","49.4","19","19","0","A","B","65","76","",""
+"","","","","","html-keyboard-response","106","365419","0.0-9.0-0.19","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","107","370240","0.0-9.0-1.19","044","4819","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪4</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>25%</span>
+                    </p>","a","binary","B","3","12","12","0","B","A","75","4","",""
+"","","","","","html-keyboard-response","108","371677","0.0-9.0-0.20","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","109","375904","0.0-9.0-1.20","044","4226","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪18</span>
+                      <span>₪36</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>50%</span>
+                      <span>30%</span>
+                    </p>","a","binary","B","9","22","22","0","B","A","50","18","",""
+"","","","","","html-keyboard-response","110","376467","0.0-9.0-0.21","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","111","381728","0.0-9.0-1.21","044","5259","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪61</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>60%</span>
+                      <span>55%</span>
+                    </p>","d","binary","B","33.55","7","7","0","A","B","55","61","",""
+"","","","","","html-keyboard-response","112","383049","0.0-9.0-0.22","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","113","383960","0.0-9.0-1.22","044","910","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪64</span>
+                      <span>₪36</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>50%</span>
+                      <span>70%</span>
+                    </p>","a","binary","B","32","3","3","0","B","A","50","64","",""
+"","","","","","html-keyboard-response","114","384673","0.0-9.0-0.23","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","115","390696","0.0-9.0-1.23","044","6022","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪4</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>30%</span>
+                      <span>75%</span>
+                    </p>","a","binary","A","10.8","20","20","0","A","B","30","36","",""
+"","","","","","html-keyboard-response","116","391313","0.0-9.0-0.24","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","117","396552","0.0-9.0-1.24","044","5237","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪39</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>60%</span>
+                      <span>65%</span>
+                    </p>","a","binary","B","25.8","15","15","0","B","A","60","43","",""
+"","","","","","html-keyboard-response","118","397617","0.0-9.0-0.25","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","119","400152","0.0-9.0-1.25","044","2534","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪58</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>30%</span>
+                      <span>25%</span>
+                    </p>","a","binary","A","17.4","30","30","1","A","B","30","58","",""
+"","","","","","html-keyboard-response","120","400795","0.0-9.0-0.26","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","121","406936","0.0-9.0-1.26","044","6140","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪4</span>
+                      <span>₪16</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>50%</span>
+                      <span>20%</span>
+                    </p>","d","binary","A","3.2","17","17","0","B","A","20","16","",""
+"","","","","","html-keyboard-response","122","407547","0.0-9.0-0.27","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","123","410552","0.0-9.0-1.27","044","3004","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪61</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>45%</span>
+                    </p>","a","binary","B","32.25","11","11","0","B","A","75","43","",""
+"","","","","","html-keyboard-response","124","411902","0.0-9.0-0.28","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","125","416085","0.0-9.0-1.28","044","4182","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪64</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>50%</span>
+                    </p>","d","binary","A","32","4","4","0","B","A","50","64","",""
+"","","","","","html-keyboard-response","126","417061","0.0-9.0-0.29","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","127","420501","0.0-9.0-1.29","044","3439","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪58</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>40%</span>
+                    </p>","a","binary","B","27","13","13","0","B","A","75","36","",""
+"","","","","","html-keyboard-response","128","421510","0.0-10.0","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","129","424573","0.0-11.0","044","3062","<p>הפסקה.
+          <br>לחצו על רווח כדי להמשיך.</p>"," ","scan_wait","","","","","","","","","","",""
+"","","","","","html-keyboard-response","130","425168","0.0-12.0-0.0","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","131","433117","0.0-12.0-1.0","044","7947","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪79</span>
+                      <span>₪71</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>65%</span>
+                      <span>75%</span>
+                    </p>","d","binary","B","53.25","8","8","0","A","B","75","71","",""
+"","","","","","html-keyboard-response","132","434297","0.0-12.0-0.1","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","133","440149","0.0-12.0-1.1","044","5850","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪18</span>
+                      <span>₪36</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>50%</span>
+                      <span>30%</span>
+                    </p>","d","binary","A","10.8","22","22","0","B","A","30","36","",""
+"","","","","","html-keyboard-response","134","441125","0.0-12.0-0.2","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","135","449349","0.0-12.0-1.2","044","8223","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪61</span>
+                      <span>₪36</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>45%</span>
+                      <span>70%</span>
+                    </p>","a","binary","A","27.45","10","10","0","A","B","45","61","",""
+"","","","","","html-keyboard-response","136","450778","0.0-12.0-0.3","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","137","452461","0.0-12.0-1.3","044","1682","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪76</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>65%</span>
+                      <span>75%</span>
+                    </p>","a","binary","B","49.4","24","24","0","B","A","65","76","",""
+"","","","","","html-keyboard-response","138","452974","0.0-12.0-0.4","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","139","455349","0.0-12.0-1.4","044","2374","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪11</span>
+                      <span>₪18</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>45%</span>
+                      <span>25%</span>
+                    </p>","a","binary","B","4.95","14","14","0","B","A","45","11","",""
+"","","","","","html-keyboard-response","140","456763","0.0-12.0-0.5","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","141","472772","0.0-12.0-1.5","044","16009","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪64</span>
+                      <span>₪39</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>50%</span>
+                      <span>65%</span>
+                    </p>","a","binary","B","32","1","1","0","B","A","50","64","",""
+"","","","","","html-keyboard-response","142","473648","0.0-12.0-0.6","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","143","475723","0.0-12.0-1.6","044","2074","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪64</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>70%</span>
+                      <span>50%</span>
+                    </p>","d","binary","B","32","3","3","0","A","B","50","64","",""
+"","","","","","html-keyboard-response","144","476628","0.0-12.0-0.7","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","145","487412","0.0-12.0-1.7","044","10782","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪79</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>60%</span>
+                      <span>40%</span>
+                    </p>","d","binary","B","31.6","9","9","0","A","B","40","79","",""
+"","","","","","html-keyboard-response","146","488436","0.0-12.0-0.8","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","147","494227","0.0-12.0-1.8","044","5790","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪64</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>75%</span>
+                    </p>","d","binary","B","8.25","6","6","0","A","B","75","11","",""
+"","","","","","html-keyboard-response","148","495440","0.0-12.0-0.9","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","149","497787","0.0-12.0-1.9","044","2346","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪58</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>30%</span>
+                      <span>25%</span>
+                    </p>","a","binary","A","17.4","30","30","1","A","B","30","58","",""
+"","","","","","html-keyboard-response","150","498975","0.0-12.0-0.10","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","151","501763","0.0-12.0-1.10","044","2787","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪39</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>65%</span>
+                      <span>60%</span>
+                    </p>","a","binary","A","25.35","15","15","0","A","B","65","39","",""
+"","","","","","html-keyboard-response","152","502320","0.0-12.0-0.11","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","153","504459","0.0-12.0-1.11","044","2138","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪71</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>55%</span>
+                      <span>75%</span>
+                    </p>","a","binary","A","39.05","18","18","0","A","B","55","71","",""
+"","","","","","html-keyboard-response","154","505783","0.0-12.0-0.12","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","155","510067","0.0-12.0-1.12","044","4283","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪61</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>45%</span>
+                    </p>","a","binary","B","32.25","11","11","0","B","A","75","43","",""
+"","","","","","html-keyboard-response","156","511510","0.0-12.0-0.13","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","157","513932","0.0-12.0-1.13","044","2420","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪18</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>50%</span>
+                      <span>25%</span>
+                    </p>","a","binary","A","9","28","28","1","A","B","50","18","",""
+"","","","","","html-keyboard-response","158","515031","0.0-12.0-0.14","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","159","518836","0.0-12.0-1.14","044","3804","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪71</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>60%</span>
+                      <span>45%</span>
+                    </p>","d","binary","B","31.95","2","2","0","A","B","45","71","",""
+"","","","","","html-keyboard-response","160","519759","0.0-12.0-0.15","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","161","522971","0.0-12.0-1.15","044","3211","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪4</span>
+                      <span>₪36</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>30%</span>
+                    </p>","a","binary","B","3","20","20","0","B","A","75","4","",""
+"","","","","","html-keyboard-response","162","523924","0.0-12.0-0.16","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","163","527219","0.0-12.0-1.16","044","3295","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪71</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>45%</span>
+                    </p>","d","binary","A","31.95","16","16","0","B","A","45","71","",""
+"","","","","","html-keyboard-response","164","528502","0.0-12.0-0.17","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","165","530939","0.0-12.0-1.17","044","2436","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪61</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>55%</span>
+                      <span>75%</span>
+                    </p>","a","binary","B","33.55","26","26","0","B","A","55","61","",""
+"","","","","","html-keyboard-response","166","531515","0.0-12.0-0.18","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","167","534711","0.0-12.0-1.18","044","3199","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪11</span>
+                      <span>₪4</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>25%</span>
+                    </p>","a","binary","A","8.25","29","29","1","A","B","75","11","",""
+"","","","","","html-keyboard-response","168","536013","0.0-12.0-0.19","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","169","543031","0.0-12.0-1.19","044","7016","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪39</span>
+                      <span>₪58</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>60%</span>
+                      <span>45%</span>
+                    </p>","d","binary","A","26.1","25","25","0","B","A","45","58","",""
+"","","","","","html-keyboard-response","170","544204","0.0-12.0-0.20","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","171","546471","0.0-12.0-1.20","044","2265","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪16</span>
+                      <span>₪4</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>20%</span>
+                      <span>50%</span>
+                    </p>","a","binary","A","3.2","17","17","0","A","B","20","16","",""
+"","","","","","html-keyboard-response","172","547121","0.0-12.0-0.21","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","173","559615","0.0-12.0-1.21","044","12492","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪4</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>25%</span>
+                    </p>","a","binary","B","3","12","12","0","B","A","75","4","",""
+"","","","","","html-keyboard-response","174","561069","0.0-12.0-0.22","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","175","564582","0.0-12.0-1.22","044","3512","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪76</span>
+                      <span>₪43</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>65%</span>
+                      <span>75%</span>
+                    </p>","a","binary","A","49.4","19","19","0","A","B","65","76","",""
+"","","","","","html-keyboard-response","176","565347","0.0-12.0-0.23","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","177","568671","0.0-12.0-1.23","044","3322","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪64</span>
+                      <span>₪58</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>25%</span>
+                      <span>40%</span>
+                    </p>","d","binary","B","23.2","21","21","0","A","B","40","58","",""
+"","","","","","html-keyboard-response","178","569774","0.0-12.0-0.24","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","179","571934","0.0-12.0-1.24","044","2159","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪64</span>
+                      <span>₪36</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>50%</span>
+                      <span>75%</span>
+                    </p>","a","binary","A","32","4","4","0","A","B","50","64","",""
+"","","","","","html-keyboard-response","180","573127","0.0-12.0-0.25","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","181","578383","0.0-12.0-1.25","044","5255","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪4</span>
+                      <span>₪18</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>25%</span>
+                    </p>","a","binary","B","3","23","23","0","B","A","75","4","",""
+"","","","","","html-keyboard-response","182","579631","0.0-12.0-0.26","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","183","583254","0.0-12.0-1.26","044","3622","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪43</span>
+                      <span>₪61</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>60%</span>
+                      <span>55%</span>
+                    </p>","d","binary","B","33.55","7","7","0","A","B","55","61","",""
+"","","","","","html-keyboard-response","184","583872","0.0-12.0-0.27","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","185","586710","0.0-12.0-1.27","044","2837","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪71</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>55%</span>
+                    </p>","d","binary","B","39.05","5","5","0","A","B","55","71","",""
+"","","","","","html-keyboard-response","186","587979","0.0-12.0-0.28","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","187","597393","0.0-12.0-1.28","044","9410","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪36</span>
+                      <span>₪58</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>75%</span>
+                      <span>40%</span>
+                    </p>","a","binary","B","27","13","13","0","B","A","75","36","",""
+"","","","","","html-keyboard-response","188","598651","0.0-12.0-0.29","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","189","604209","0.0-12.0-1.29","044","5557","
+                    <p class=""lotteries"">
+                      <span><img src='img/A.png', width=""30""></span>
+                      <span><img src='img/D.png', width=""30""></span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>₪16</span>
+                      <span>₪11</span>
+                    </p>
+                    <p class=""lotteries"">
+                      <span>20%</span>
+                      <span>25%</span>
+                    </p>","a","binary","A","3.2","27","27","0","A","B","20","16","",""
+"","","","","","html-keyboard-response","190","605216","0.0-13.0","044","null","<p style=""text-align: center;"">+</p>","null","fixation","","","","","","","","","","",""
+"","","","","","html-keyboard-response","191","605920","0.0-14.0","044","null","","null","delay","","","","","","","","","","",""
+"","","","","","html-keyboard-response","192","625033","0.0-15.0","044","19112","<h1>הסוף</h1>
+        <p>אנו מודים לכם על ההשתתפות!
+        <p>כעת נשחק את אחת ההגרלות שבחרתם, באחד משני החלקים.
+        <br>אנא קראו לנו להרצת ההגרלות.</p>"," ","","","","","","","","","","","",""
+"","","","","","survey","193","663180","0.0-16.0","044","38066","","{""Gender"":""זכר"",""Hand"":""ימין"",""Glasses"":""לא"",""Age"":""18""}","","","","","","","","","","","","[]"
