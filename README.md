@@ -1,5 +1,5 @@
-## Latent dimensions in neural representations predict choice context effects
-Code and data for the manuscript "Latent dimensions in neural representations predict choice context effects" by Asaf Madar, Tom Zemer, Ido Tavor* & Dino J Levy*.
+## Neural similarity between choice options predicts group-level context effects
+Code and data for the manuscript "Neural similarity between choice options predicts group-level context effects" by Asaf Madar, Tom Zemer, Ido Tavor* & Dino J Levy*.
 
 ### Data 
 The analyzed fMRI data (~50GB) is provided via the Open Science Framework (OSF) at: https://osf.io/uex4m/
