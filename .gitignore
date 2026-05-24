@@ -2,3 +2,4 @@ data/subject_representations
 mri_masks/*
 .DS_Store
 *.pyc
+.vscode/*
