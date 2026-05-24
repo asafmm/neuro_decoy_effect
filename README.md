@@ -4,15 +4,15 @@ Code and data for the manuscript "Neural similarity between choice options predi
 ### Overview
 The study includes two tasks:
 
-(Task 1) Lottery evaluation task - willingness-to-pay task over 31 unique lotteries.
+- Task 1 - Lottery evaluation task - willingness-to-pay task over 31 unique lotteries.
 
-(Task 2) Decoy task - multi-alternative choice task, where participants choose which lottery they would like to participate in. Participants are assigned either to a binary group, choosing between a target (A) and competitor (B), or a trinary group, with an additional "decoy" option (C). The task includes 27 unique lottery sets, constructed by the 31 lotteries from task 1.
+- Task 2 - Decoy task - multi-alternative choice task, where participants choose which lottery they would like to participate in. Participants are assigned either to a binary group, choosing between a target (A) and competitor (B), or a trinary group, with an additional "decoy" option (C). The task includes 27 unique lottery sets, constructed by the 31 lotteries from task 1.
 
 Both tasks were completed by two types of samples:
 
-(1) Behavioral sample (n=122) completing both tasks in a computer lab.
+- Behavioral sample (n=122) completing both tasks in a computer lab.
 
-(2) fMRI samples - first (n=28) and replication (n=34) samples, completing the lottery evaluation task inside the fMRI, and the decoy task outside the scanner.
+- fMRI samples - first (n=28) and replication (n=34) samples, completing the lottery evaluation task inside the fMRI, and the decoy task outside the scanner.
 
 The fMRI analyses derive Representational Dissimilarity Matrices (RDMs) from individual-subject responses to 31 lotteries and use their average, via cross-validated regression, to predict each lottery set's behavioral decoy effect.
 
