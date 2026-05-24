@@ -1,3 +1,14 @@
+"""Utilities for loading raw multi-alternative choice data and computing
+per-subject and group-level decoy effects.
+
+Each subject's CSV contains either a binary (A vs B) or a trinary
+(A vs B vs C, with C as a decoy) version of the task. The functions in
+this module screen subjects (via catch trials and trial completeness),
+compute choice shares per lottery set, average them across subjects, and
+derive the decoy effect as the difference between trinary and binary
+shares of the target option A.
+"""
+
 import pandas as pd
 import numpy as np
 import glob
@@ -15,6 +26,12 @@ BINARY_PATH = '../../stimuli/stimuli_binary.csv'
 EVALUATION_PATH = '../../stimuli/evaluation_stimuli.csv'
 
 def extract_choices(df):
+    """Return the choice-trial subset of a subject's raw CSV.
+
+    Detects whether the subject completed the binary or the trinary task
+    (based on the ``part`` column) and returns the relevant columns plus
+    a ``trinary_group`` indicator (1 for trinary, 0 for binary).
+    """
     is_trinary = any(df.part=='trinary')
     if is_trinary:
         choices_df = df.loc[df.part=='trinary', ['subject_id', 'binary_id', 'trinary_id', 'response', 'actual_choice', 'direction', 'catch']]
@@ -27,6 +44,12 @@ def extract_choices(df):
     return choices_df
 
 def passed_catch_trials(choices_df, verbose=True):
+    """Return ``True`` if the subject failed one or less catch trials.
+
+    Catch trials are sets in which option A strictly dominates the
+    alternatives, so any non-A choice indicates inattention. Subjects who
+    fail more than one are flagged for exclusion.
+    """
     # check catch trials
     # if the subject didn't choose A in the catch trials, drop them!
     catch_choices = choices_df[choices_df.catch==1].actual_choice
@@ -44,6 +67,14 @@ def passed_catch_trials(choices_df, verbose=True):
         return True
 
 def calculate_choice_ratios(choices_df, verbose=True):
+    """Compute per-lottery-set choice counts and shares for one subject.
+
+    Returns a DataFrame indexed by ``binary_id`` (and ``trinary_id`` for
+    trinary subjects) with the counts of A/B/C choices and the relative
+    shares ``A_ratio = A / (A + B)`` and ``B_ratio = B / (A + B)``. 
+    Returns the string ``'dropped'`` if the subject fails the
+    catch-trial screen.
+    """
     # print choices
     responses = choices_df.response.values
     
@@ -113,6 +144,14 @@ def calculate_choice_ratios(choices_df, verbose=True):
     return ratio_df
 
 def get_ratios(files, full_length, verbose=True):
+    """Iterate over subject files and collect per-subject choice ratios.
+
+    Subjects who completed fewer than ``full_length`` trials or who failed
+    the catch-trial screen are dropped. Returns the lists of binary and
+    trinary per-subject ratio DataFrames, the IDs of the retained
+    subjects, a concatenated raw-choices DataFrame, and a list of per-
+    subject ratio DataFrames tagged with subject ID and group.
+    """
     binary_ratios = []
     trinary_ratios = []
     subjects_dropped = 0
@@ -156,6 +195,11 @@ def get_ratios(files, full_length, verbose=True):
     return binary_ratios, trinary_ratios, good_subjects, raw_choices, subject_ratio_dfs
 
 def average_ratios(binary_ratios, trinary_ratios):
+    """Aggregate per-subject choice counts into group-level shares.
+
+    Sums counts across subjects within each lottery set and recomputes the
+    A/B ratios from the pooled totals.
+    """
     sum_binary = pd.concat(binary_ratios).groupby('binary_id').sum()
     avg_binary = sum_binary.copy()
     avg_binary.loc[:, 'A_ratio'] = sum_binary.A_total / sum_binary.A_B_total
@@ -168,6 +212,13 @@ def average_ratios(binary_ratios, trinary_ratios):
     return avg_binary, avg_trinary
 
 def calculate_decoy_effect(binary_ratios, trinary_ratios):
+    """Compute the decoy effect for each lottery set.
+
+    Defined as the difference in target choice share between the trinary
+    and binary groups (``decoy_effect_A = A_ratio_trinary -
+    A_ratio_binary``). Merges trinary and binary aggregates with the
+    lottery descriptions from the stimuli CSVs and flags catch sets.
+    """
     avg_binary, avg_trinary = average_ratios(binary_ratios, trinary_ratios)
     avg_trinary = avg_trinary.reset_index()
     avg_binary.loc[:, 'n'] = len(binary_ratios)
@@ -190,6 +241,11 @@ def calculate_decoy_effect(binary_ratios, trinary_ratios):
     return all_ratios
 
 def analyze_data_files(files, verbose=True):
+    """End-to-end pipeline from raw subject files to a decoy-effect table.
+
+    Convenience wrapper that calls `get_ratios` and `calculate_decoy_effect` 
+    and returns the aggregate table along with the underlying per-subject ratios and choices.
+    """
     if verbose:
         print(f'Overall {len(files)} subjects')
     # analyze decoy effect
@@ -198,6 +254,13 @@ def analyze_data_files(files, verbose=True):
     return all_ratios, binary_ratios, trinary_ratios, raw_choices, subject_ratio_dfs
 
 def bootstrap_std(decoy_table, binary_ratios, trinary_ratios, B=10_000):
+    """Bootstrap the standard deviation of each set's decoy effect.
+
+    Resamples subjects with replacement ``B`` times (separately within
+    the binary and trinary groups), recomputes the difference of means
+    per set, and returns the per-set standard deviation as a DataFrame
+    indexed by ``binary_id``.
+    """
     # calculate bootstrap standard deviation for the difference between binary and trinary means
     n_sets = len(binary_ratios[0])
     diffs = np.zeros((B, n_sets))
@@ -220,6 +283,11 @@ def bootstrap_std(decoy_table, binary_ratios, trinary_ratios, B=10_000):
     return bootstrap_decoy_std
 
 def plot_decoy_table(pretty_table, mturk=0):
+    """Bar plot of decoy effects per lottery set.
+
+    Colors bars on a diverging red/teal colormap and overlays bootstrap
+    error bars.
+    """
     cvals = [-1, 0, 1]
     decoy_colors = ['#3e8a83', '#ffffff', '#C42934']
     colors_norm = plt.Normalize(min(cvals), max(cvals))
@@ -265,6 +333,13 @@ def plot_decoy_table(pretty_table, mturk=0):
     [spine.set_linewidth(4) for spine in ax.spines.values()]
 
 def read_survey(files):
+    """Collect post-task survey responses and won amounts.
+
+    Reads each subject's CSV, extracts the JSON-encoded survey block
+    (gender, handedness, glasses, age), parses the experiment date from
+    the file path, and records the BDM payout. Returns one row per
+    subject.
+    """
     # extract survey and winning prizes
     current_os = platform.system()
     info_df = pd.DataFrame()

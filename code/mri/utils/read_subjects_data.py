@@ -1,3 +1,11 @@
+"""Build `Subject` instances for a list of subject IDs and compute
+their RDMs in parallel.
+
+Run inclusion is hard-coded per subject to drop runs known to have
+technical or behavioral problems. Subjects flagged ``to_exclude`` by the exclusion parmater in
+`Subject` are dropped.
+"""
+
 import tqdm
 import pandas as pd
 import numpy as np
@@ -5,6 +13,12 @@ from joblib import Parallel, delayed
 from utils import mri_subject, rdms, load_params, stepwise_rdm
 
 def get_subjects_object(subject_numbers):
+    """Construct ``Subject`` objects for the given IDs.
+
+    Pulls demographics from the merged survey CSVs and applies the per-
+    subject run-inclusion list. Returns only subjects that pass the
+    automatic exlclusion criteria inside the class `Subject`.
+    """
     subjects = []
     info_survey_pilot = pd.read_csv('../../results/replication_results/survey_details.csv', index_col=0)
     info_survey_replication = pd.read_csv('../../results/first_results/survey_details.csv', index_col=0)
@@ -54,9 +68,11 @@ def get_subjects_object(subject_numbers):
     return subjects
             
 def calc_subjects_RDM(subjects, mask_dict_type='roi', map_type='zstat', design_prefix='view_unified'):
+    """Compute `Subject.calc_RDM` for all subjects in parallel."""
     subjects_with_RDM = Parallel(n_jobs=-1)(delayed(_calc_RDM)(subject, mask_dict_type, map_type=map_type, design_prefix=design_prefix) for subject in tqdm.tqdm(subjects))
     return subjects_with_RDM
 
 def _calc_RDM(subject, mask_dict_type='roi', motion_thresh=0.75, map_type='zstat', design_prefix='view_unified'):
+    """Worker that builds a single subject's RDM and returns the subject."""
     subject.calc_RDM(mask_dict_type=mask_dict_type, motion_thresh=motion_thresh, verbose=False, map_type=map_type, design_prefix=design_prefix)
     return subject

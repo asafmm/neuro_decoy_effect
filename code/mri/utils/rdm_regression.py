@@ -1,3 +1,13 @@
+"""Linear regression fitting per-set behavioral decoy effects from
+neural RDMs.
+
+For each ROI, every subject contributes three pairwise distances per
+lottery set (target-competitor, target-decoy, competitor-decoy). After
+normalizing each subject's full RDM and averaging across subjects,
+these three columns (per included ROI) become the predictors in an OLS
+regression whose target is the empirical decoy effect of each set.
+"""
+
 import numpy as np
 import pandas as pd
 from utils import rdms
@@ -5,6 +15,23 @@ import statsmodels.api as sm
 from statsmodels.tools.sm_exceptions import MissingDataError
 
 class RDMRegression():
+    """OLS regression of decoy effects on per-set neural representational dissimilarities.
+
+    Parameters:
+        subjects (list[Subject]): subjects whose RDMs feed into the model.
+        rois (list[str] | None): ROIs whose RDMs serve as predictors. If
+            ``None`` the model reduces to an intercept-only baseline.
+        sets (list[Set]): lottery sets to predict (target variable is
+            ``set.decoy_effect``).
+
+    Workflow:
+        1. ``__init__`` z-scores each subject's RDM and averages across
+           subjects to produce per-set features.
+        2. `fit` runs OLS on the design matrix.
+        3. `transform_set` / `predict` project a held-out
+           lottery set onto the fitted model.
+    """
+
     def __init__(self, subjects, rois, sets):
         self.subjects = subjects
         self.rois = rois
@@ -21,6 +48,14 @@ class RDMRegression():
             self.rois_std = {}
         
     def _get_avg_rdms(self):
+        """Z-score each subject's RDM and average them into per-set features.
+
+        Stores group-mean per-set RDM features in ``self.rdms[roi]`` and
+        the full 31x31 group RDM in ``self.full_rdms[roi]``. The per-
+        subject mean/std used for z-scoring are cached in
+        ``self.rois_mean`` / ``self.rois_std`` so that held-out sets can
+        be normalized with the same statistics.
+        """
         avg_rdms = {}
         std_rdms = {}
         full_avg_rdms = {}
@@ -54,6 +89,12 @@ class RDMRegression():
         self.std_rdms = std_rdms
     
     def fit(self, use_explicit=False):
+        """Fit the OLS model and cache ``lm``, ``adj_r2`` and ``pval``.
+
+        With ``use_explicit=True`` the design matrix is augmented with
+        the explicit lottery attributes (amount and probability of each
+        of the three options) to control for attribute-level effects.
+        """
         X = []
         if use_explicit:
             attributes = pd.DataFrame(np.zeros((len(self.sets), 3*2)), columns=3*['amount', 'prob'], index=[s.set_num for s in self.sets])
@@ -80,6 +121,13 @@ class RDMRegression():
             print(f'{roi} has missing data')
 
     def transform_set(self, new_set):
+        """Build a design-matrix row for one or more held-out lottery sets.
+
+        For each new set, slices each subject's RDM to its three
+        lotteries, normalizes with the subject's training-time mean/std,
+        and averages across subjects. The resulting row(s) live in
+        ``self.new_set_X`` and are also returned.
+        """
         if type(new_set) == list:
             new_sets = new_set
         else:
@@ -103,6 +151,11 @@ class RDMRegression():
         return new_set_X
 
     def predict(self, new_set):
+        """Predict the decoy effect of held-out set(s) using the fitted model.
+
+        Fits the model lazily if it has not been fitted yet. Returns the
+        model's predictions and the projected design matrix.
+        """
         if not hasattr(self, 'lm'):
             self.fit()
         if self.rois is not None:

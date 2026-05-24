@@ -1,8 +1,24 @@
+"""Forward stepwise ROI selection for the RDM regression.
+
+Starts from the best single-ROI model and iteratively adds the ROI that
+yields the most significant predictors. After each addition, ROIs whose
+columns are no longer significant are dropped from the model. The
+procedure stops when no candidate ROI adds at least one significant
+predictor (or when the safety cap of 20 steps is reached).
+"""
+
 import pandas as pd
 import numpy as np
 from utils import rdm_regression
 
 def first_stepwise(rois, subjects, set_objs, verbose=False, use_explicit=False):
+    """Run the full forward-stepwise procedure starting from a single-ROI model.
+
+    Selects the ROI with the smallest single-ROI model p-value as the
+    seed, then hands control to `stepwise` to add further ROIs.
+    Returns the final model, its surviving ROIs, and the list of every
+    model p-value visited along the way (useful for FDR control).
+    """
     if verbose:
         print('first step of stepwise regression')
     first_model_ps = np.zeros(len(rois))
@@ -32,6 +48,18 @@ def first_stepwise(rois, subjects, set_objs, verbose=False, use_explicit=False):
     return final_model, final_model.rois, model_pvals
 
 def stepwise(model, rois, subjects, set_objs, previously_used_rois, step_i=2, verbose=False, use_explicit=False, all_model_pvals=np.array([])):
+    """Recursively grow the model by adding the best candidate ROI.
+
+    At each step:
+        * Augments ``model.rois`` with every remaining candidate.
+        * Picks the candidate whose addition produces the largest number
+          of significant predictors (with the mean ``-log10(p)`` as a
+          tie-breaker).
+        * Refits the model and drops any predictor that no longer
+          survives significance.
+        * Recurses until no candidate adds a significant predictor or
+          ``step_i`` exceeds 20.
+    """
     if step_i > 20:
         return model
     if len(rois)==0:
@@ -100,6 +128,14 @@ def stepwise(model, rois, subjects, set_objs, previously_used_rois, step_i=2, ve
         return model, all_model_pvals
     
 def save_model_pvalues(model):
+    """Return a per-predictor p-value DataFrame indexed by (ROI, column).
+
+    Splits column names of the form ``{ROI}_Target_Competitor`` (or
+    ``{schaefer}_{parcel}_*`` for the Schaefer atlas) into a (ROI,
+    column) MultiIndex and flags rows below ``alpha_enter=0.1``.
+    Predictors for explicit attributes (``amount``, ``prob``) are
+    excluded from the returned table.
+    """
     alpha_enter = 0.1
     alpha_remove = 0.05
     if 'schaefer' not in model.rois[0]:

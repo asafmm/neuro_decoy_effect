@@ -1,3 +1,12 @@
+"""Helpers for building, normalizing, and visualizing RDMs.
+
+An RDM here is a 31 x 31 matrix of pairwise distances between the
+fMRI representations of the 31 lotteries in an ROI. Functions in this
+module compute the matrices, slice them down to per-set triplets
+(target, competitor, decoy), normalize them across subjects, and
+provide a simple plotting helper.
+"""
+
 import os
 import re
 import pickle
@@ -14,23 +23,36 @@ SET_NUMBERS = np.arange(1, 28)
 LOTTERY_IDS = np.arange(1, 32)
 
 def calc_euclidean(a):
-    # calculate the euclidean distance between all pairs of rows in a matrix
+    """Squared Euclidean distance between all pairs of rows in ``a``."""
     sum_sq = np.sum(a**2, axis=1, keepdims=True)
     euc_sq = sum_sq + sum_sq.T - 2*np.dot(a, a.T)
     return euc_sq
 
 def calc_corr_dist(a):
-    # calculate the correlation distance between all pairs of rows in a matrix
+    """Correlation distance ``1 - corrcoef(a)`` between all pairs of rows."""
     corr_dist = 1 - np.corrcoef(a)
     return corr_dist
 
 def get_avg_rep(representations_dict):
+    """Average each ROI's per-run representations into a 2D pattern matrix.
+
+    Input is ``{roi: array (n_lotteries, n_voxels, n_runs)}``; output is
+    ``{roi: array (n_lotteries, n_voxels)}`` averaged across runs. 
+    Excluded runs / high-motion trials are skipped.
+    """
     avg_representation = representations_dict.copy()
     for roi, reps in avg_representation.items():
         avg_representation[roi] = np.nanmean(reps, axis=2)
     return avg_representation
 
 def get_set_RDMs_obj(rdm, sets, roi):
+    """Extract the three pairwise distances per lottery set from a full RDM.
+
+    For each `Set`, takes the 3x3 submatrix of ``rdm`` restricted to
+    its lotteries and returns the lower-triangle entries as columns named
+    ``{roi}_Target_Competitor``, ``{roi}_Target_Decoy``,
+    ``{roi}_Competitor_Decoy`` in a DataFrame indexed by ``set_num``.
+    """
     set_numbers = [s.set_num for s in sets]
     set_RDMs = pd.DataFrame({f'{roi}_Target_Competitor':np.nan, f'{roi}_Target_Decoy':np.nan, f'{roi}_Competitor_Decoy':np.nan}, index=set_numbers)
     for lottery_set in sets:
@@ -42,6 +64,10 @@ def get_set_RDMs_obj(rdm, sets, roi):
     return set_RDMs
    
 def get_RDM(stimuli_reps, dist='correlation'):
+    """Compute a full pairwise dissimilarity matrix from a pattern matrix.
+
+    ``dist`` may be ``'correlation'`` or ``'euclidean'``.
+    """
     if dist=='correlation':
         non_set_RDM = calc_corr_dist(stimuli_reps)
     elif dist=='euclidean':
@@ -49,6 +75,11 @@ def get_RDM(stimuli_reps, dist='correlation'):
     return non_set_RDM
 
 def create_subject_rdm_dict(avg_representation, distance_metric='euclidean'):
+    """Build ``{roi: DataFrame (31x31)}`` of RDMs from averaged patterns.
+
+    Skips ROIs whose pattern matrix is empty or whose RDM is all-NaN.
+    Returned matrices are indexed by 1-based lottery IDs.
+    """
     roi_rdm_dict = {}
     for roi in avg_representation.keys():
         if avg_representation[roi].shape[1] == 0:
@@ -63,6 +94,11 @@ def create_subject_rdm_dict(avg_representation, distance_metric='euclidean'):
     return roi_rdm_dict
 
 def normalize_RDM(roi_rdm, return_stats=False):
+    """Z-score an RDM by its own mean and standard deviation.
+
+    Used to put each subject's RDM on a common scale before averaging
+    across subjects. With ``return_stats=True`` also returns the mean and SD.
+    """
     rdm_mean = np.mean(roi_rdm.values)
     rdm_std = np.std(roi_rdm.values)
     norm_rdm = (roi_rdm - rdm_mean) / rdm_std
@@ -72,6 +108,7 @@ def normalize_RDM(roi_rdm, return_stats=False):
         return norm_rdm
 
 def plot_rdm(rdm, title=None):
+    """Plot an RDM and return (fig, ax, image)."""
     fig ,ax = plt.subplots(figsize=(10, 10), dpi=150)
     cax = ax.imshow(rdm, cmap='Purples')
     # plt.xticks(np.arange(0, rdm.shape[0], 2), np.arange(1, rdm.shape[0]+1, 2))

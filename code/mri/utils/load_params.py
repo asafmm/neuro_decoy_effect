@@ -1,3 +1,11 @@
+"""Loaders for the precomputed objects used across the fMRI notebooks.
+
+Centralises file paths for subject lists, lottery definitions, set
+descriptors, behavioral results, and the saved subject-level fMRI
+representations. All paths are resolved relative to the notebook
+directory ``code/mri/`` (i.e. ``../../data/...``).
+"""
+
 import os
 import re
 import pickle
@@ -10,6 +18,12 @@ SET_NUMBERS = np.arange(1, 28)
 LOTTERY_IDS = np.arange(1, 32)
 
 def load_subject_numbers(sample_type='first'):
+    """Return the zero-padded subject IDs for a given sample.
+
+    ``sample_type``: ``'first'`` for the first sample (1-31, with 006
+    excluded for scan artifacts), ``'replication'`` for the replication
+    cohort (32-70), or ``'all'``.
+    """
     if sample_type == 'first':
         subject_numbers = np.arange(1, 32)
         subject_numbers = ['{:03d}'.format(i) for i in subject_numbers]
@@ -23,6 +37,14 @@ def load_subject_numbers(sample_type='first'):
     return subject_numbers
 
 def create_set_dicts():
+    """Build the set dictionary, mapping each set number (1-27) to the lotteries (id 1-31) that construct it. 
+    This gives the target/competitor/decoy identity for each lottery, e.g., `{set 1: {'A': 16, 'B': 25, 'C': 12}}`.
+
+    Parses ``stimuli/evaluation_stimuli.csv`` whose ``set`` column lists
+    the role of each lottery in different sets, 
+    e.g. "3A-7B" means the lottery is the target (A) in set "3", and the competitor (B) in set "7".
+    Returns one dictionary per set in 1-based indexing.
+    """
     lotteries = pd.read_csv('../../stimuli/evaluation_stimuli.csv')
     lotteries.loc[:, 'EV'] = lotteries.prob * lotteries.amount / 100
     evs = lotteries.EV.values.flatten()
@@ -43,20 +65,29 @@ def create_set_dicts():
     return set_dicts
 
 def load_set_dicts():
+    """Load the pickled set dictionary dictionary."""
     with open('../../data/lottery_sets/set_dicts.pkl', 'rb') as f:
         set_dicts = pickle.load(f)
     return set_dicts
 
 def load_lotteries():
+    """Load the pickled list of `lottery_sets.Lottery` objects (1-based)."""
     with open('../../data/lottery_sets/lotteries.pkl', 'rb') as f:
         lottery_objs = pickle.load(f)
     return lottery_objs
 
 def load_behavior_results(path='../../results/decoy_table.csv'):
+    """Load the group-level decoy-effect table produced by ``choice_main.ipynb``."""
     behavior_results = pd.read_csv(path, index_col=0)
     return behavior_results
 
 def load_sets(behavior_results=None):
+    """Assemble `lottery_sets.Set` objects for all 27 lottery sets.
+
+    Combines the set dictionary, the per-lottery objects, and the
+    behavioral decoy-effect table into one array of fully populated
+    ``Set`` instances ready for use in RDM regressions.
+    """
     if behavior_results is None:
         behavior_results = load_behavior_results()
     set_dicts = load_set_dicts()
@@ -78,6 +109,13 @@ def load_sets(behavior_results=None):
     return set_objs
 
 def load_samples(roi_type='roi'):
+    """Load pre-saved `Subject` lists for the first and replication samples.
+
+    ``roi_type='roi'`` returns subjects with the 8 predefined ROI
+    representations; ``roi_type='schaefer'`` returns subjects with the
+    400+19 Schaefer cortex+subcortex parcellation. See ``data_structure.md``
+    for the contents of ``subject.representations`` and ``subject.RDM``.
+    """
     if roi_type=='roi':
         with open('../../data/subject_representations/first_subjects.pkl', 'rb') as f:
             first_subjects = pickle.load(f)
