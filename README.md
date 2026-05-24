@@ -46,4 +46,4 @@ To access the ROIs used throughout the paper, please refer to the "mri_masks" fo
 - `results/` — pre-computed behavioral tables and model results referenced by the fMRI notebooks (e.g., `decoy_table.csv`).
 
 ### Running the code
-The notebooks are intended to be run with the `data/` folder placed at the repository root (downloaded from OSF). Each notebook is self-contained; loading helpers in `code/mri/utils/load_params.py` resolve all data paths relative to the notebook directory. A standard scientific Python stack is required (pandas, numpy, scipy, statsmodels, scikit-learn, matplotlib, seaborn, pingouin, nibabel, tqdm, joblib).
+The notebooks are intended to be run with the `data/` folder placed at the repository root (downloaded from OSF). Each notebook is self-contained; loading helpers in `code/mri/utils/load_params.py` resolve all data paths relative to the notebook directory. 
