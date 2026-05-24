@@ -1,0 +1,14 @@
+joblib
+matplotlib
+nibabel
+numpy
+pandas
+Pillow
+pingouin
+scikit-learn
+scipy
+seaborn
+statsmodels
+torch
+torchvision
+tqdm
