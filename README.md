@@ -53,6 +53,7 @@ Core dependencies: `numpy`, `pandas`, `scipy`, `statsmodels`, `scikit-learn`, `m
 neuro_decoy_effect/
 ├── code/
 │   ├── behavioral_computational/    # Decoy choice task analysis & computational models
+│   │   └── ddms/                    # Drift-diffusion model predictions & evaluation
 │   └── mri/                         # fMRI analyses & figure notebooks
 │       └── utils/                   # Supporting modules
 ├── stimuli/                         # Lottery and lottery-set definitions (CSV)
@@ -68,6 +69,19 @@ Analysis of the decoy choice experiment and fits of computational context-effect
 | `read_files.py` | Utilities for loading raw behavioral CSVs, screening subjects, and computing per-set choice ratios and decoy effects. |
 | `choice_main.ipynb` | Main behavioral analyses: aggregates subjects, computes the decoy effect per lottery set, and produces the behavioral summary figures. |
 | `computational_models.ipynb` | Fits and compares context-effect models (Adaptive Gain, Divisive Normalization, Range Normalization, etc.) to the observed decoy effects. |
+
+#### `code/behavioral_computational/ddms/`
+Evaluation of drift-diffusion models — *Selective Integration* ([Cao et al., 2022, *eLife*](https://github.com/YinanCao/multiattribute-distractor)) and *Mutual Inhibition* ([Chau et al., 2020, *eLife*](https://datadryad.org/dataset/doi:10.5061/dryad.k6djh9w3c)) — fitted externally and assessed here against the behavioral decoy effects.
+
+| Path | Description |
+|------|-------------|
+| `ddms_model_eval.ipynb` | Evaluates the two DDMs against observed choices: full-sample correlations with the decoy effect and cross-validated RMSE. |
+| `raw_choices_for_fitting.csv` | Trial-level raw choices supplied to the external DDM fitting code. |
+| `selective_integration_binary_predictions.csv` / `selective_integration_trinary_predictions.csv` | Full-sample Selective Integration choice probabilities for the binary and trinary groups. |
+| `mutual_inhibition_target_choices.csv` | Full-sample Mutual Inhibition target-choice probabilities. |
+| `cv_raw_choices/` | Per-fold train/test splits of the raw choices used for cross-validation. |
+| `ddm_cv_predictions/mutual_inhibition/` | Per-fold cross-validated predictions from the Mutual Inhibition model. |
+| `ddm_cv_predictions/selective_integration/` | Per-fold cross-validated predictions from the Selective Integration model (binary and trinary groups). |
 
 ### `code/mri/`
 fMRI analyses producing the figures of the paper.
