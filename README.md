@@ -11,7 +11,7 @@ The study includes **two tasks**:
 | # | Task | Description |
 |---|------|-------------|
 | 1 | **Lottery evaluation** | Willingness-to-pay task over 31 unique lotteries. |
-| 2 | **Decoy** | Multi-alternative choice task. Participants are assigned to a *binary* group, choosing between a target (A) and a competitor (B), or a *trinary* group, with an additional *decoy* option (C). The task includes 27 unique lottery sets, constructed from the 31 lotteries of Task 1. |
+| 2 | **Decoy** | Multi-alternative choice task. Participants are assigned to a *binary* group, choosing between a target (A) and a competitor (B), or to a *trinary* group, with an additional decoy option (C). The task includes 27 unique lottery sets, constructed from the 31 lotteries of Task 1. |
 
 Both tasks were completed by **two types of samples**:
 
@@ -31,7 +31,7 @@ The analyzed fMRI data (~50 GB) is provided via the **Open Science Framework (OS
 
 > To run the notebooks, download the `data` folder from OSF and place it at the repository root, replacing the `data` folder from this repo.
 
-The ROIs used throughout the paper are available in the `mri_masks` folder on OSF. They are *not* required to run the code.
+The ROIs used throughout the paper are available in the `mri_masks` folder on OSF. They are not required to run the code.
 
 ---
 
@@ -58,7 +58,7 @@ neuro_decoy_effect/
 │       └── ddms/                    # Drift-diffusion model predictions & evaluation
 ├── stimuli/                         # Lottery and lottery-set definitions (CSV)
 ├── results/                         # Pre-computed behavioral tables & model results
-└── data/                            # behavioral WTP and fMRI data (download from OSF)
+└── data/                            # behavioral WTP and fMRI data (for all fMRI data download from OSF)
 ```
 
 ### `code/mri/`
@@ -66,10 +66,10 @@ fMRI analyses producing the figures of the paper.
 
 | Notebook | Description |
 |----------|-------------|
-| `fig2_fitting.ipynb` | Stepwise RDM regression that selects ROIs whose representational geometry predicts the decoy effect. |
-| `fig2_CV_visualization.ipynb` | Visualizes the cross-validated predictions of the selected model. |
+| `fig2_fitting.ipynb` | Stepwise RDM regression that selects ROIs whose RDMs fits the decoy effect. |
+| `fig2_CV_visualization.ipynb` | Visualizes the cross-validated predictions. |
 | `fig2_predictions.ipynb` | Leave-one-lottery-out predictions of the decoy effect from neural RDMs. |
-| `fig3_attribute_representation_levels.ipynb` | Relates ROI RDMs to attribute-based (amount, probability) RDMs. |
+| `fig3_attribute_representation_levels.ipynb` | Relates ROI RDMs to lottery attributes RDMs (amount, probability). |
 | `fig4_rep_geometry.ipynb` | Analyses of representational geometry (effective dimensionality). |
 
 #### `code/mri/utils/`
