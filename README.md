@@ -17,11 +17,11 @@ Both tasks were completed by **two types of samples**:
 
 | Sample | n | Setting |
 |--------|---|---------|
-| Behavioral | 122 | Computer lab |
-| fMRI (first) | 28 | Lottery evaluation in scanner; decoy task outside |
-| fMRI (replication) | 34 | Lottery evaluation in scanner; decoy task outside |
+| Behavioral | 122 | Both tasks completed in a computer lab |
+| fMRI (first) | 28 | Lottery evaluation in scanner; decoy task outside (not used in the study) |
+| fMRI (replication) | 34 | Lottery evaluation in scanner; decoy task outside (not used in the study) |
 
-The fMRI analyses derive **Representational Dissimilarity Matrices (RDMs)** from individual-subject responses to the 31 lotteries and use their average, via cross-validated regression, to predict each lottery set's behavioral decoy effect.
+The fMRI analyses derive **Representational Dissimilarity Matrices (RDMs)** from individual-subject responses to the 31 lotteries and use their average, via cross-validated regression, to predict each lottery set's decoy effect from the behavioral sample.
 
 ---
 
@@ -52,16 +52,16 @@ Core dependencies: `numpy`, `pandas`, `scipy`, `statsmodels`, `scikit-learn`, `m
 ```
 neuro_decoy_effect/
 ├── code/
-│   ├── behavioral_computational/    # Online choice experiment & computational models
+│   ├── behavioral_computational/    # Decoy choice task analysis & computational models
 │   └── mri/                         # fMRI analyses & figure notebooks
 │       └── utils/                   # Supporting modules
 ├── stimuli/                         # Lottery and lottery-set definitions (CSV)
 ├── results/                         # Pre-computed behavioral tables & model results
-└── data/                            # fMRI data (download from OSF)
+└── data/                            # behavioral WTP and fMRI data (download from OSF)
 ```
 
 ### `code/behavioral_computational/`
-Analysis of the online multi-alternative choice experiment and fits of computational context-effect models.
+Analysis of the decoy choice experiment and fits of computational context-effect models.
 
 | File | Description |
 |------|-------------|
@@ -77,8 +77,8 @@ fMRI analyses producing the figures of the paper.
 | `fig2_fitting.ipynb` | Stepwise RDM regression that selects ROIs whose representational geometry predicts the decoy effect. |
 | `fig2_CV_visualization.ipynb` | Visualizes the cross-validated predictions of the selected model. |
 | `fig2_predictions.ipynb` | Leave-one-lottery-out predictions of the decoy effect from neural RDMs. |
-| `fig3_attribute_representation_levels.ipynb` | Relates ROI RDMs to attribute-based (amount, probability) reference RDMs. |
-| `fig4_rep_geometry.ipynb` | Analyses of representational geometry (effective dimensionality, PCA-based geometry features). |
+| `fig3_attribute_representation_levels.ipynb` | Relates ROI RDMs to attribute-based (amount, probability) RDMs. |
+| `fig4_rep_geometry.ipynb` | Analyses of representational geometry (effective dimensionality). |
 
 ### `code/mri/utils/`
 Supporting modules used by the notebooks (see module docstrings for details).
