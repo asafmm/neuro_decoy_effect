@@ -52,14 +52,39 @@ Core dependencies: `numpy`, `pandas`, `scipy`, `statsmodels`, `scikit-learn`, `m
 ```
 neuro_decoy_effect/
 ├── code/
-│   ├── behavioral_computational/    # Decoy choice task analysis & computational models
-│   │   └── ddms/                    # Drift-diffusion model predictions & evaluation
-│   └── mri/                         # fMRI analyses & figure notebooks
-│       └── utils/                   # Supporting modules
+│   ├── mri/                         # fMRI analyses & figure notebooks
+│   │   └── utils/                   # Supporting modules
+│   └── behavioral_computational/    # Decoy choice task analysis & computational models
+│       └── ddms/                    # Drift-diffusion model predictions & evaluation
 ├── stimuli/                         # Lottery and lottery-set definitions (CSV)
 ├── results/                         # Pre-computed behavioral tables & model results
 └── data/                            # behavioral WTP and fMRI data (download from OSF)
 ```
+
+### `code/mri/`
+fMRI analyses producing the figures of the paper.
+
+| Notebook | Description |
+|----------|-------------|
+| `fig2_fitting.ipynb` | Stepwise RDM regression that selects ROIs whose representational geometry predicts the decoy effect. |
+| `fig2_CV_visualization.ipynb` | Visualizes the cross-validated predictions of the selected model. |
+| `fig2_predictions.ipynb` | Leave-one-lottery-out predictions of the decoy effect from neural RDMs. |
+| `fig3_attribute_representation_levels.ipynb` | Relates ROI RDMs to attribute-based (amount, probability) RDMs. |
+| `fig4_rep_geometry.ipynb` | Analyses of representational geometry (effective dimensionality). |
+
+#### `code/mri/utils/`
+Supporting modules used by the notebooks (see module docstrings for details).
+
+| Module | Description |
+|--------|-------------|
+| `load_params.py` | Loads subject lists, lottery sets, behavioral results, and saved subject representations. |
+| `lottery_sets.py` | `Lottery` and `Set` classes describing single lotteries and target/competitor/decoy triplets. |
+| `mri_subject.py` | `Subject` class encapsulating an individual's choice data, motion, representations, and RDM. |
+| `rdms.py` | RDM construction and helpers (distance metrics, normalization, plotting). |
+| `rdm_regression.py` | `RDMRegression` class that predicts behavioral decoy effects from per-set neural dissimilarities. |
+| `stepwise_rdm.py` | Forward stepwise ROI selection for the RDM regression model. |
+| `read_subjects_data.py` | Builds `Subject` objects with the appropriate run exclusions and computes their RDMs in parallel. |
+| `visualization.py` | Writes Schaefer-parcellation results to CIFTI surface files for cortical visualization. |
 
 ### `code/behavioral_computational/`
 Analysis of the decoy choice experiment and fits of computational context-effect models.
@@ -82,31 +107,6 @@ Evaluation of drift-diffusion models — *Selective Integration* ([Cao et al., 2
 | `cv_raw_choices/` | Per-fold train/test splits of the raw choices used for cross-validation. |
 | `ddm_cv_predictions/mutual_inhibition/` | Per-fold cross-validated predictions from the Mutual Inhibition model. |
 | `ddm_cv_predictions/selective_integration/` | Per-fold cross-validated predictions from the Selective Integration model (binary and trinary groups). |
-
-### `code/mri/`
-fMRI analyses producing the figures of the paper.
-
-| Notebook | Description |
-|----------|-------------|
-| `fig2_fitting.ipynb` | Stepwise RDM regression that selects ROIs whose representational geometry predicts the decoy effect. |
-| `fig2_CV_visualization.ipynb` | Visualizes the cross-validated predictions of the selected model. |
-| `fig2_predictions.ipynb` | Leave-one-lottery-out predictions of the decoy effect from neural RDMs. |
-| `fig3_attribute_representation_levels.ipynb` | Relates ROI RDMs to attribute-based (amount, probability) RDMs. |
-| `fig4_rep_geometry.ipynb` | Analyses of representational geometry (effective dimensionality). |
-
-### `code/mri/utils/`
-Supporting modules used by the notebooks (see module docstrings for details).
-
-| Module | Description |
-|--------|-------------|
-| `load_params.py` | Loads subject lists, lottery sets, behavioral results, and saved subject representations. |
-| `lottery_sets.py` | `Lottery` and `Set` classes describing single lotteries and target/competitor/decoy triplets. |
-| `mri_subject.py` | `Subject` class encapsulating an individual's choice data, motion, representations, and RDM. |
-| `rdms.py` | RDM construction and helpers (distance metrics, normalization, plotting). |
-| `rdm_regression.py` | `RDMRegression` class that predicts behavioral decoy effects from per-set neural dissimilarities. |
-| `stepwise_rdm.py` | Forward stepwise ROI selection for the RDM regression model. |
-| `read_subjects_data.py` | Builds `Subject` objects with the appropriate run exclusions and computes their RDMs in parallel. |
-| `visualization.py` | Writes Schaefer-parcellation results to CIFTI surface files for cortical visualization. |
 
 ### `stimuli/` and `results/`
 - **`stimuli/`** — CSV definitions of the binary and trinary lottery sets and of the individual lotteries used in the fMRI evaluation task.
