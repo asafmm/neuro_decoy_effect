@@ -1,49 +1,105 @@
-## Neural similarity between choice options predicts group-level context effects
-Code and data for the manuscript "Neural similarity between choice options predicts group-level context effects" by Asaf Madar, Tom Zemer, Ido Tavor* & Dino J Levy*.
+# Neural similarity between choice options predicts group-level context effects
 
-### Overview
-The study includes two tasks:
+Code and data for the manuscript *"Neural similarity between choice options predicts group-level context effects"* by **Asaf Madar, Tom Zemer, Ido Tavor\*, and Dino J. Levy\***.
 
-- Task 1 - Lottery evaluation task - willingness-to-pay task over 31 unique lotteries.
+---
 
-- Task 2 - Decoy task - multi-alternative choice task, where participants choose which lottery they would like to participate in. Participants are assigned either to a binary group, choosing between a target (A) and competitor (B), or a trinary group, with an additional "decoy" option (C). The task includes 27 unique lottery sets, constructed by the 31 lotteries from task 1.
+## Overview
 
-Both tasks were completed by two types of samples:
+The study includes **two tasks**:
 
-- Behavioral sample (n=122) completing both tasks in a computer lab.
+| # | Task | Description |
+|---|------|-------------|
+| 1 | **Lottery evaluation** | Willingness-to-pay task over 31 unique lotteries. |
+| 2 | **Decoy** | Multi-alternative choice task. Participants are assigned to a *binary* group, choosing between a target (A) and a competitor (B), or a *trinary* group, with an additional *decoy* option (C). The task includes 27 unique lottery sets, constructed from the 31 lotteries of Task 1. |
 
-- fMRI samples - first (n=28) and replication (n=34) samples, completing the lottery evaluation task inside the fMRI, and the decoy task outside the scanner.
+Both tasks were completed by **two types of samples**:
 
-The fMRI analyses derive Representational Dissimilarity Matrices (RDMs) from individual-subject responses to 31 lotteries and use their average, via cross-validated regression, to predict each lottery set's behavioral decoy effect.
+| Sample | n | Setting |
+|--------|---|---------|
+| Behavioral | 122 | Computer lab |
+| fMRI (first) | 28 | Lottery evaluation in scanner; decoy task outside |
+| fMRI (replication) | 34 | Lottery evaluation in scanner; decoy task outside |
 
-### Data
-The analyzed fMRI data (~50GB) is provided via the Open Science Framework (OSF) at: https://osf.io/uex4m/
+The fMRI analyses derive **Representational Dissimilarity Matrices (RDMs)** from individual-subject responses to the 31 lotteries and use their average, via cross-validated regression, to predict each lottery set's behavioral decoy effect.
 
-To run the notebooks, please download the "data" folder from OSF, and replace it with the data folder from this repo.
-To access the ROIs used throughout the paper, please refer to the "mri_masks" folder in OSF. Note that it is not required in order to run the code.
+---
 
-### Repository layout
-- `code/behavioral_computational/` — analysis of the online multi-alternative choice experiment and fits of computational context-effect models.
-  - `read_files.py` — utilities for loading raw behavioral CSVs, screening subjects, and computing per-set choice ratios and decoy effects.
-  - `choice_main.ipynb` — main behavioral analyses: aggregates subjects, computes the decoy effect per lottery set, and produces the behavioral summary figures.
-  - `computational_models.ipynb` — fits and compares context-effect models (Adaptive Gain, Divisive Normalization, Range Normalization, etc.) to the observed decoy effects.
-- `code/mri/` — fMRI analyses producing the figures of the paper.
-  - `fig2_fitting.ipynb` — stepwise RDM regression that selects ROIs whose representational geometry predicts the decoy effect.
-  - `fig2_CV_visualization.ipynb` — visualizes the cross-validated predictions of the selected model.
-  - `fig2_predictions.ipynb` — leave-one-lottery-out predictions of the decoy effect from neural RDMs.
-  - `fig3_attribute_representation_levels.ipynb` — relates ROI RDMs to attribute-based (amount, probability) reference RDMs.
-  - `fig4_rep_geometry.ipynb` — analyses of representational geometry (effective dimensionality, PCA-based geometry features).
-  - `utils/` — supporting modules used by the notebooks (see module docstrings for details):
-    - `load_params.py` — loads subject lists, lottery sets, behavioral results, and saved subject representations.
-    - `lottery_sets.py` — `Lottery` and `Set` classes describing single lotteries and target/competitor/decoy triplets.
-    - `mri_subject.py` — `Subject` class encapsulating an individual's choice data, motion, representations, and RDM.
-    - `rdms.py` — RDM construction and helpers (distance metrics, normalization, plotting).
-    - `rdm_regression.py` — `RDMRegression` class that predicts behavioral decoy effects from per-set neural dissimilarities.
-    - `stepwise_rdm.py` — forward stepwise ROI selection for the RDM regression model.
-    - `read_subjects_data.py` — builds `Subject` objects with the appropriate run exclusions and computes their RDMs in parallel.
-    - `visualization.py` — writes Schaefer-parcellation results to CIFTI surface files for cortical visualization.
-- `stimuli/` — CSV definitions of the binary and trinary lottery sets and of the individual lotteries used in the fMRI evaluation task.
-- `results/` — pre-computed behavioral tables and model results referenced by the fMRI notebooks (e.g., `decoy_table.csv`).
+## Data
 
-### Running the code
-The notebooks are intended to be run with the `data/` folder placed at the repository root (downloaded from OSF). Each notebook is self-contained; loading helpers in `code/mri/utils/load_params.py` resolve all data paths relative to the notebook directory. 
+The analyzed fMRI data (~50 GB) is provided via the **Open Science Framework (OSF)**: <https://osf.io/uex4m/>
+
+> To run the notebooks, download the `data` folder from OSF and place it at the repository root, replacing the `data` folder from this repo.
+
+The ROIs used throughout the paper are available in the `mri_masks` folder on OSF. They are *not* required to run the code.
+
+---
+
+## Installation
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Core dependencies: `numpy`, `pandas`, `scipy`, `statsmodels`, `scikit-learn`, `matplotlib`, `seaborn`, `pingouin`, `nibabel`, `tqdm`, `joblib`, `torch`, `torchvision`.
+
+---
+
+## Repository layout
+
+```
+neuro_decoy_effect/
+├── code/
+│   ├── behavioral_computational/    # Online choice experiment & computational models
+│   └── mri/                         # fMRI analyses & figure notebooks
+│       └── utils/                   # Supporting modules
+├── stimuli/                         # Lottery and lottery-set definitions (CSV)
+├── results/                         # Pre-computed behavioral tables & model results
+└── data/                            # fMRI data (download from OSF)
+```
+
+### `code/behavioral_computational/`
+Analysis of the online multi-alternative choice experiment and fits of computational context-effect models.
+
+| File | Description |
+|------|-------------|
+| `read_files.py` | Utilities for loading raw behavioral CSVs, screening subjects, and computing per-set choice ratios and decoy effects. |
+| `choice_main.ipynb` | Main behavioral analyses: aggregates subjects, computes the decoy effect per lottery set, and produces the behavioral summary figures. |
+| `computational_models.ipynb` | Fits and compares context-effect models (Adaptive Gain, Divisive Normalization, Range Normalization, etc.) to the observed decoy effects. |
+
+### `code/mri/`
+fMRI analyses producing the figures of the paper.
+
+| Notebook | Description |
+|----------|-------------|
+| `fig2_fitting.ipynb` | Stepwise RDM regression that selects ROIs whose representational geometry predicts the decoy effect. |
+| `fig2_CV_visualization.ipynb` | Visualizes the cross-validated predictions of the selected model. |
+| `fig2_predictions.ipynb` | Leave-one-lottery-out predictions of the decoy effect from neural RDMs. |
+| `fig3_attribute_representation_levels.ipynb` | Relates ROI RDMs to attribute-based (amount, probability) reference RDMs. |
+| `fig4_rep_geometry.ipynb` | Analyses of representational geometry (effective dimensionality, PCA-based geometry features). |
+
+### `code/mri/utils/`
+Supporting modules used by the notebooks (see module docstrings for details).
+
+| Module | Description |
+|--------|-------------|
+| `load_params.py` | Loads subject lists, lottery sets, behavioral results, and saved subject representations. |
+| `lottery_sets.py` | `Lottery` and `Set` classes describing single lotteries and target/competitor/decoy triplets. |
+| `mri_subject.py` | `Subject` class encapsulating an individual's choice data, motion, representations, and RDM. |
+| `rdms.py` | RDM construction and helpers (distance metrics, normalization, plotting). |
+| `rdm_regression.py` | `RDMRegression` class that predicts behavioral decoy effects from per-set neural dissimilarities. |
+| `stepwise_rdm.py` | Forward stepwise ROI selection for the RDM regression model. |
+| `read_subjects_data.py` | Builds `Subject` objects with the appropriate run exclusions and computes their RDMs in parallel. |
+| `visualization.py` | Writes Schaefer-parcellation results to CIFTI surface files for cortical visualization. |
+
+### `stimuli/` and `results/`
+- **`stimuli/`** — CSV definitions of the binary and trinary lottery sets and of the individual lotteries used in the fMRI evaluation task.
+- **`results/`** — pre-computed behavioral tables and model results referenced by the fMRI notebooks (e.g., `decoy_table.csv`).
+
+---
+
+## Running the code
+
+The notebooks are intended to be run with the `data/` folder placed at the repository root (downloaded from OSF). Each notebook is self-contained; loading helpers in `code/mri/utils/load_params.py` resolve all data paths relative to the notebook directory.
